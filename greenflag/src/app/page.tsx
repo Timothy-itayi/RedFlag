@@ -4,10 +4,38 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
 const Home = () => {
   const products = [
     {
-      title: "Moonbeam",
+      title: "Cars",
       link: "/cars",
-      thumbnail: "/cockpit.png",
+      thumbnail: "/cars.avif",
     },
+    {
+      title: "Drivers",
+      link: "/drivers",
+      thumbnail: "/helmet.png",
+    },
+  
+    {
+      title: "Teams",
+      link: "/teams",
+      thumbnail: "/photo-output.jpg",
+    },
+    {
+      title: " Champions",
+      link: "/champions",
+      thumbnail: "/champ.jpg",
+    },
+    {
+      title: "Tracks",
+      link: "/tracks",
+      thumbnail: "/tracks.jpeg",
+    },
+    {
+      title: "About ",
+      link: "/about",
+      thumbnail: "/IMG_3154.JPG",
+    },
+    
+  
   ];
 
   return (
