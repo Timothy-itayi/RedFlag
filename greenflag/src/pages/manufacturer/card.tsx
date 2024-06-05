@@ -2,9 +2,9 @@
 
 
 import Image from "next/image";
-import { Tabs } from "../components/Tabs";
+import { Tabs } from "../../components/Tabs";
 
-const Teams = () => {
+const Card = () => {
   const tabs = [
     {
       title: "Lotus",
@@ -94,7 +94,7 @@ const Teams = () => {
   );
 }
 
-export default Teams; 
+export default Card; 
 const Redbull = () => {
   return (
     <Image
