@@ -55,7 +55,7 @@ const Nikki = () => (
 const items = [
   {
     title: "The Reign of Renault",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
+    description: "Alonso began his Formula One journey with Minardi in 2001 before transitioning to Renault in 2003. At Renault, he quickly made an impact, breaking records as the youngest driver to win a pole position and a race. His successful stint continued into 2005, where he clinched the World Drivers' Championship, becoming the youngest champion at the time. In 2006, Alonso secured his second championship title with Renault, fending off stiff competition from Ferrari's Michael Schumacher.",
     header: <Alonso />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },

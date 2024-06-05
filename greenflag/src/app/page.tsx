@@ -40,12 +40,15 @@ const Home = () => {
 
   return (
     <>
-      <HeroParallax products={products} />
+    <div className="animate-fade-up">
+    <HeroParallax products={products} />
       <footer className="text-center bg-gray-800">
         <p className="text-white">
           &copy; {new Date().getFullYear()} Green Flag. All rights reserved.
         </p>
       </footer>
+    </div>
+    
     </>
   );
 };
