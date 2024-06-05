@@ -4,35 +4,35 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
 const Home = () => {
   const products = [
     {
-      title: "Cars",
-      link: "/cars",
-      thumbnail: "/cars.avif",
+      title: "Manufacturer",
+      link: "/manufacturer",
+      thumbnail: "/homeImages/cars.avif",
     },
     {
       title: "Drivers",
       link: "/drivers",
-      thumbnail: "/helmet.png",
+      thumbnail: "/homeImages/helmet.png",
     },
   
     {
       title: "Teams",
       link: "/teams",
-      thumbnail: "/photo-output.jpg",
+      thumbnail: "/homeImages/teams.jpg",
     },
     {
       title: " Champions",
       link: "/champions",
-      thumbnail: "/champ.jpg",
+      thumbnail: "/homeImages/champ.jpg",
     },
     {
       title: "Tracks",
       link: "/tracks",
-      thumbnail: "/tracks.jpeg",
+      thumbnail: "/homeImages/tracks.jpeg",
     },
     {
       title: "About ",
       link: "/about",
-      thumbnail: "/IMG_3154.JPG",
+      thumbnail: "/homeImages/IMG_3154.JPG",
     },
     
   
