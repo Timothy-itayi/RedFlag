@@ -96,7 +96,7 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0">
+    <div className="max-w-7xl relative mx-auto  md:py-40 px-4 w-full left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
         Green Flag <br /> The Formula 1 Museum
       </h1>
@@ -137,8 +137,8 @@ export const ProductCard = ({
         <div className="block group-hover/product:shadow-2xl">
           <Image
             src={product.thumbnail}
-            height="1000"
-            width="1000"
+            height="500"
+            width="500"
             className="object-fit object-left-top absolute h-full w-full inset-0"
             alt={product.title}
           />
