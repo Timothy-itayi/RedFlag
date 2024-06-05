@@ -3,13 +3,14 @@ import { useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link"; // Import Link from Next.js
 import { cn } from "../../utils/cn";
 
 export const ParallaxScroll = ({
-  images,
+  imagesWithText,
   className,
 }: {
-  images: string[];
+  imagesWithText: { src: string; text: string; link: string }[]; // Added link property
   className?: string;
 }) => {
   const gridRef = useRef<any>(null);
@@ -19,14 +20,14 @@ export const ParallaxScroll = ({
   });
 
   const translateFirst = useTransform(scrollYProgress, [0, 1], [0, -200]);
-  const translateSecond = useTransform(scrollYProgress, [0, 1], [0, 200]);
+  const translateSecond = useTransform(scrollYProgress, [0, 1], [0, -200]);
   const translateThird = useTransform(scrollYProgress, [0, 1], [0, -200]);
 
-  const third = Math.ceil(images.length / 3);
+  const third = Math.ceil(imagesWithText.length / 3);
 
-  const firstPart = images.slice(0, third);
-  const secondPart = images.slice(third, 2 * third);
-  const thirdPart = images.slice(2 * third);
+  const firstPart = imagesWithText.slice(0, third);
+  const secondPart = imagesWithText.slice(third, 2 * third);
+  const thirdPart = imagesWithText.slice(2 * third);
 
   return (
     <div
@@ -42,40 +43,80 @@ export const ParallaxScroll = ({
             <motion.div
               style={{ y: translateFirst }} // Apply the translateY motion value here
               key={"grid-1" + idx}
+              className="relative group"
             >
-              <Image
-                src={el}
-                className="h-full w-full object-cover object-left-top rounded-lg gap-10 !m-0 !p-0"
-                height="1000"
-                width="1000"
-                alt="thumbnail"
-              />
+              <Link href={el.link} passHref>
+                <div>
+                <div>
+                  <Image
+                    src={el.src}
+                    className="h-full w-full object-cover object-left-top rounded-lg gap-10 !m-0 !p-0"
+                    height="1000"
+                    width="1000"
+                    alt="thumbnail"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-center text-white text-lg font-semibold rounded-lg">
+                    {el.text}
+                  </div>
+                </div>
+                </div>
+               
+              </Link>
             </motion.div>
           ))}
         </div>
         <div className="grid gap-10">
           {secondPart.map((el, idx) => (
-            <motion.div style={{ y: translateSecond }} key={"grid-1" + idx}>
-              <Image
-                src={el}
-                className="h-full w-full object-cover object-left-top rounded-lg gap-10 !m-0 !p-0"
-                height="1000"
-                width="1000"
-                alt="thumbnail"
-              />
+            <motion.div
+              style={{ y: translateSecond }}
+              key={"grid-1" + idx}
+              className="relative group"
+            >
+              <Link href={el.link} passHref>
+                <div>
+                <div>
+                  <Image
+                    src={el.src}
+                    className="h-full w-full object-cover object-left-top rounded-lg gap-10 !m-0 !p-0"
+                    height="1000"
+                    width="1000"
+                    alt="thumbnail"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-center text-white text-lg font-semibold rounded-lg">
+                    {el.text}
+                  </div>
+                  </div>
+                </div>
+              
+                
+              </Link>
             </motion.div>
           ))}
         </div>
         <div className="grid gap-10">
           {thirdPart.map((el, idx) => (
-            <motion.div style={{ y: translateThird }} key={"grid-2" + idx}>
-              <Image
-                src={el}
-                className="h-full w-full object-cover object-left-top rounded-lg gap-10 !m-0 !p-0"
-                height="1000"
-                width="1000"
-                alt="thumbnail"
-              />
+            <motion.div
+              style={{ y: translateThird }}
+              key={"grid-2" + idx}
+              className="relative group"
+            >
+              <Link href={el.link} passHref>
+                <div>
+                <div>
+                  <Image
+                    src={el.src}
+                    className="h-full w-full object-cover object-left-top rounded-lg gap-10 !m-0 !p-0"
+                    height="1000"
+                    width="1000"
+                    alt="thumbnail"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-center text-white text-lg font-semibold rounded-lg">
+                    {el.text}
+                  </div>
+                </div>
+                </div>
+        
+              </Link>
             </motion.div>
           ))}
         </div>
