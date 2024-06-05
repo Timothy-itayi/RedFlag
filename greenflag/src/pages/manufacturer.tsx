@@ -77,7 +77,7 @@ const cards = [
     content: <Renualt />,
     className: "md:col-span-1",
     thumbnail:
-      "/manufacturer/Renault-F1.jpg",
+      "/manufacturer/renault.jpg",
   },
   {
     id: 2,
@@ -98,7 +98,7 @@ const cards = [
     content: <Ferrari />,
     className: "md:col-span-1",
     thumbnail:
-       "/teams/fard.avif",
+       "/manufacturer/ferrari.png",
   },
   {
     id: 5,

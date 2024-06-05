@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       animation:{
+        fade:'fade 1s east-out',
         shimmer: "shimmer 2s linear infinite",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
@@ -23,6 +24,9 @@ const config: Config = {
           },
         },
       },
+      variants: {
+        grayscale: ['responsive', 'hover'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -30,6 +34,8 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 };
 export default config;

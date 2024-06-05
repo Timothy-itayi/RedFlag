@@ -34,18 +34,21 @@ const Home = () => {
       link: "/about",
       thumbnail: "/homeImages/IMG_3154.JPG",
     },
-    
+  
   
   ];
 
   return (
     <>
-      <HeroParallax products={products} />
+    <div className="animate-fade-up mb-10 ">
+    <HeroParallax products={products} />
       <footer className="text-center bg-gray-800">
         <p className="text-white">
           &copy; {new Date().getFullYear()} Green Flag. All rights reserved.
         </p>
       </footer>
+    </div>
+    
     </>
   );
 };

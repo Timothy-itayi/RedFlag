@@ -28,7 +28,7 @@ export const Tabs = ({
 
   const moveSelectedTabToTop = (idx: number) => {
     const newTabs = [...propTabs];
-    const selectedTab = newTabs.splice(idx, 1);
+    const selectedTab = newTabs.splice(idx, tabs.length);
     newTabs.unshift(selectedTab[0]);
     setTabs(newTabs);
     setActive(newTabs[0]);
@@ -50,11 +50,12 @@ export const Tabs = ({
             onClick={() => {
               moveSelectedTabToTop(idx);
             }}
+       
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
             className={cn("relative px-4 py-2 bg-black rounded-full", tabClassName)}
             style={{
-              transformStyle: "preserve-3d",
+              transformStyle: "flat",
             }}
           >
             {active.value === tab.value && (
@@ -107,10 +108,10 @@ export const FadeInDiv = ({
           key={tab.value}
           layoutId={tab.value}
           style={{
-            scale: 1 - idx * 0.1,
+            scale: 1 - (idx / tabs.length) * 0.1,
             top: hovering ? idx * -50 : 0,
             zIndex: -idx,
-            opacity: idx < 3 ? 1 - idx * 0.1 : 0,
+            opacity: idx < 1 ? 1 - idx * 0.1 : 0,
           }}
           animate={{
             y: isActive(tab) ? [0, 40, 0] : 0,
