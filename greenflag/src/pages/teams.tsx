@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import { Tabs } from "../components/Tabs";
-
+import {teamColors }from '../components/Tabs'
 
 const Teams = () => {
   const tabs = [
@@ -11,7 +11,7 @@ const Teams = () => {
       title: "RedBull",
       value: "redbull",
       content: (
-        <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-black to-black ">
+        <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white" style={{backgroundImage: `linear-gradient(to bottom right, ${teamColors["RedBull"]}, black)`}}>
       <p>Redbull</p>
          <div className="flex flex-row items-start">
         
@@ -28,7 +28,7 @@ const Teams = () => {
       title: "Ferrari",
       value: "ferrari",
       content: (
-        <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-black to-black ">
+        <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white" style={{backgroundImage: `linear-gradient(to bottom right, ${teamColors["Ferrari"]}, black)`}}>
           <p>Ferrari </p>
           <div className="flex flex-row items-start">
 
@@ -41,10 +41,10 @@ const Teams = () => {
       ),
     },
     {
-      title: "Mclaren",
+      title: "McLaren",
       value: "mclaren",
       content: (
-        <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-black to-black ">
+        <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white" style={{backgroundImage: `linear-gradient(to bottom right, ${teamColors["McLaren"]}, black)`}}>
           <p>Mclaren </p>
           <div className="flex flex-row items-start"> 
           <Mclaren />
@@ -59,7 +59,7 @@ const Teams = () => {
         title: "Mercedes",
         value: "mercedes",
         content: (
-          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-black to-black ">
+          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white" style={{backgroundImage: `linear-gradient(to bottom right, ${teamColors["Mercedes"]}, black)`}}>
             <p>Mercedes </p>
             <div className="flex flex-row items-start">
             <Mercedes />
@@ -71,10 +71,10 @@ const Teams = () => {
         ),
       },
       {
-        title: "Kick Sauber",
+        title: "KickSauber",
         value: "kick_sauber",
         content: (
-          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-black to-black ">
+          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white" style={{backgroundImage: `linear-gradient(to bottom right, ${teamColors["KickSauber"]}, black)`}}>
             <p>Kick Sauber </p>
             <div className="flex flex-row items-start">
             <Kick_Sauber />
@@ -86,10 +86,10 @@ const Teams = () => {
         ),
       },
       {
-        title: "Willimas",
+        title: "Williams",
         value: "williams",
         content: (
-          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-black to-black ">
+          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white" style={{backgroundImage: `linear-gradient(to bottom right, ${teamColors["Williams"]}, black)`}}>
             <p>Williams </p>
             <div className="flex flex-row items-start">
             <Williams />
@@ -104,7 +104,7 @@ const Teams = () => {
         title: "RB",
         value: "rb",
         content: (
-          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-black to-black ">
+          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white" style={{backgroundImage: `linear-gradient(to bottom right, ${teamColors["RB"]}, black)`}}>
             <p>RB </p>
             <div className="flex flex-row items-start">
             <RB_Cash_App />
@@ -119,7 +119,7 @@ const Teams = () => {
         title: "Haas",
         value: "haas",
         content: (
-          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-black to-black ">
+          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white" style={{backgroundImage: `linear-gradient(to bottom right, ${teamColors["Haas"]}, black)`}}>
             <p>Haas </p>
             <div className="flex flex-row items-start">
             <Haas />
@@ -131,10 +131,10 @@ const Teams = () => {
         ),
       },
       {
-        title: "Aston Martin",
+        title: "AstonMartin",
         value: "aston martin",
         content: (
-          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-black to-black ">
+          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white" style={{backgroundImage: `linear-gradient(to bottom right, ${teamColors["AstonMartin"]}, black)`}}>
             <p>Aston Martin </p>
             <div className="flex flex-row items-start">
             <Aston_Martin />
@@ -149,7 +149,7 @@ const Teams = () => {
         title: "Alpine",
         value: "alpine",
         content: (
-          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-black to-black ">
+          <div className="w-full relative h-full rounded-2xl text-xl md:text-4xl font-bold text-white"style={{backgroundImage: `linear-gradient(to bottom right, ${teamColors["Alpine"]}, black)`}}>
             <p>Alpine</p>
             <div className="flex flex-row items-start">
             <Alpine />
@@ -167,8 +167,10 @@ const Teams = () => {
   return (
     <>
    
-    
-     <div className="h-[40rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-8 md:my-40">
+   <div className="text-center m-2">
+      <h1 className="text-7xl  text-white font-bold"> Formula 1 Teams</h1>
+    </div>
+     <div className="h-[40rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-2 md:my-10">
       <Tabs tabs={tabs} />
     </div>
     </>
