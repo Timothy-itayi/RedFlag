@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
+import ScrollToTop from "@/components/ui/scroll-to-top";
 
 const Tracks = () => {
   return (
@@ -10,8 +11,10 @@ const Tracks = () => {
     <div className="text-center p-10">
       <h1 className="text-7xl  text-white font-bold"> Formula 1 Tracks</h1>
     </div>
-    <div className="flex flex-wrap justify-center gap-6">
-
+      <div className="flex justify-center">
+        <ScrollToTop/>
+    <div className="flex flex-wrap justify-center  gap-6">
+  
         <CardContainer className="inter-var">
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto h-auto rounded-xl p-6 border">
             <CardItem
@@ -659,7 +662,9 @@ const Tracks = () => {
             </CardItem>
           </CardBody>
         </CardContainer>
-      </div></>
+      </div>
+      </div>
+      </>
   );
 }
 
