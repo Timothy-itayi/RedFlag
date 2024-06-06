@@ -1,99 +1,45 @@
+"use client";
 
-import React from "react";
-import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
 import Image from "next/image";
-import {
-  IconArrowWaveRightUp,
-  IconBoxAlignRightFilled,
-  IconBoxAlignTopLeft,
-  IconClipboardCopy,
-  IconFileBroken,
-  IconSignature,
-  IconTableColumn,
-} from "@tabler/icons-react";
-const  Drivers = () => {
+import React from "react";
+import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
+
+const Drivers = () => {
   return (
-    <BentoGrid className="max-w-4xl mx-auto py-10">
-      {items.map((item, i) => (
-        <BentoGridItem
-          key={i}
-          title={item.title}
-          description={item.description}
-          header={item.header}
-          icon={item.icon}
-          className={i === 3 || i === 6 ? "md:col-span-2" : ""}
-        />
-      ))}
-    </BentoGrid>
-  );
-}
-export default Drivers
-
-
-const Alonso = () => (
-  <div className="flex flex-1 w-full object-fit rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
-    <Image
-    src="/alonso.png"
-    alt="dummy image"
-    width="500"
-    height="500"
-    />
-  </div>
-);
-
-const Nikki = () => (
-    <div className="flex flex-1  w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
-      <Image
-      src="/ausGP.avif"
-      alt="dummy image"
-      width="500"
-      height="500"
-      />
+    <>
+    <div className="text-center p-10">
+      <h1 className="text-7xl  text-white font-bold"> Formula 1 Tracks</h1>
     </div>
-  );
-  
-const items = [
-  {
-    title: "The Reign of Renault",
-    description: "Alonso began his Formula One journey with Minardi in 2001 before transitioning to Renault in 2003. At Renault, he quickly made an impact, breaking records as the youngest driver to win a pole position and a race. His successful stint continued into 2005, where he clinched the World Drivers' Championship, becoming the youngest champion at the time. In 2006, Alonso secured his second championship title with Renault, fending off stiff competition from Ferrari's Michael Schumacher.",
-    header: <Alonso />,
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
-  },
-  {
-    title: "The Digital Revolution",
-    description: "Dive into the transformative power of technology.",
-    header: <Nikki />,
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
-  },
-  {
-    title: "The Art of Design",
-    description: "Discover the beauty of thoughtful and functional design.",
-    header:"",
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-  },
-  {
-    title: "The Power of Communication",
-    description:
-      "Understand the impact of effective communication in our lives.",
-    header:"",
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
-  },
-  {
-    title: "The Pursuit of Knowledge",
-    description: "Join the quest for understanding and enlightenment.",
-    header:"",
-    icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
-  },
-  {
-    title: "The Joy of Creation",
-    description: "Experience the thrill of bringing ideas to life.",
-    header:"" ,
-    icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
-  },
-  {
-    title: "The Spirit of Adventure",
-    description: "Embark on exciting journeys and thrilling discoveries.",
-    header: "",
-    icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-  },
-];
+    <div className="flex flex-wrap justify-center gap-6">
+
+        <CardContainer className="inter-var">
+          <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto h-auto rounded-xl p-6 border">
+            <CardItem
+              translateZ="50"
+              className="text-xl font-bold text-neutral-600 dark:text-white"
+            >
+            Alex Albon
+            </CardItem>
+            <CardItem
+              as="p"
+              translateZ="60"
+              className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+            >
+              Willimas 
+            </CardItem>
+            <CardItem translateZ="100" className="w-full mt-4">
+              <Image
+                src="/current_drivers/alealb01.avif"
+                height="1000"
+                width="1000"
+                className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                alt="alex_albon" />
+            </CardItem>
+          </CardBody>
+        </CardContainer>
+
+</div>
+</>
+ )
+};
+export default Drivers

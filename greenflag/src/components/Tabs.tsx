@@ -20,7 +20,7 @@ export const teamColors: { [key: string]: string } = {
   RB: "#4E7C9B",
   AstonMartin: "#006F62",
   Williams: "#005AFF",
-  KickSauber: "#00FF00",
+  Stake: "#00FF00",
   Haas: "#FFFFFF",
 };
 
