@@ -8,7 +8,7 @@ const Drivers = () => {
   return (
     <>
     <div className="text-center p-10">
-      <h1 className="text-7xl  text-white font-bold"> Formula 1 Tracks</h1>
+      <h1 className="text-7xl  text-white font-bold"> Formula 1 Drivers</h1>
     </div>
     <div className="flex flex-wrap justify-center gap-6">
 

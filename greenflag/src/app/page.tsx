@@ -1,5 +1,6 @@
 import React from "react";
 import { HeroParallax } from "@/components/ui/hero-parallax";
+import { Tabs } from "@/components/Tabs";
 
 const Home = () => {
   const products = [
@@ -17,12 +18,12 @@ const Home = () => {
     {
       title: "Teams",
       link: "/teams",
-      thumbnail: "/homeImages/teams.jpg",
+      thumbnail: "/homeImages/f1teams.jpg",
     },
     {
       title: " Champions",
       link: "/champions",
-      thumbnail: "/homeImages/champ.jpg",
+      thumbnail: "/homeImages/f1_drivers_trophy.png",
     },
     {
       title: "Tracks",
@@ -42,6 +43,9 @@ const Home = () => {
     <>
     <div className="animate-fade-up mb-10 ">
     <HeroParallax products={products} />
+
+    
+
       <footer className="text-center bg-gray-800">
         <p className="text-white">
           &copy; {new Date().getFullYear()} Green Flag. All rights reserved.
