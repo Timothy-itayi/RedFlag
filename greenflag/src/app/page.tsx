@@ -18,7 +18,7 @@ const Home = () => {
     {
       title: "Teams",
       link: "/teams",
-      thumbnail: "/homeImages/f1teams.jpg",
+      thumbnail: "/homeImages/teams.jpg",
     },
     {
       title: " Champions",
