@@ -10,6 +10,20 @@ type Tab = {
   content?: string | React.ReactNode;
 };
 
+// Mapping Formula 1 team colors
+export const teamColors: { [key: string]: string } = {
+  Mercedes: "#00D2BE",
+  Ferrari: "#DC0000",
+  RedBull: "#1E41FF",
+  McLaren: "#FF8700",
+  Alpine: "#0090FF",
+  RB: "#4E7C9B",
+  AstonMartin: "#006F62",
+  Williams: "#005AFF",
+  KickSauber: "#00FF00",
+  Haas: "#FFFFFF",
+};
+
 export const Tabs = ({
   tabs: propTabs,
   containerClassName,
@@ -38,9 +52,10 @@ export const Tabs = ({
 
   return (
     <>
+    
       <div
         className={cn(
-          "flex flex-row items-center justify-start [perspective:1000px]   relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full w-full",
+          "flex flex-row items-center justify-start [perspective:1000px]    relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full w-full",
           containerClassName
         )}
       >
@@ -50,12 +65,12 @@ export const Tabs = ({
             onClick={() => {
               moveSelectedTabToTop(idx);
             }}
-       
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
-            className={cn("relative px-4 py-2 bg-black rounded-full", tabClassName)}
+            className={cn("relative px-4 py-2 rounded-full", tabClassName)}
             style={{
-              transformStyle: "flat",
+              transformStyle: "preserve-3d",
+              backgroundColor: teamColors[tab.title] || "white",
             }}
           >
             {active.value === tab.value && (
@@ -63,13 +78,13 @@ export const Tabs = ({
                 layoutId="clickedbutton"
                 transition={{ type: "spring", bounce: 0.3, duration: 0.6 }}
                 className={cn(
-                  "absolute inset-0  bg-gray-200 dark:bg-orange-400 rounded-full ",
+                  "absolute inset-0 rounded-full",
                   activeTabClassName
                 )}
+                style={{ backgroundColor: teamColors[tab.title] || "gray" }}
               />
             )}
-
-            <span className="relative block text-black dark:text-white">
+            <span className="relative block text-white dark:text-black">
               {tab.title}
             </span>
           </button>
@@ -80,8 +95,9 @@ export const Tabs = ({
         active={active}
         key={active.value}
         hovering={hovering}
-        className={cn("mt-10", contentClassName)}
+        className={cn("mt-10" , contentClassName)}
       />
+      
     </>
   );
 };
