@@ -28,11 +28,11 @@ export const HeroParallax = ({
   const springConfig = { stiffness: 300, damping: 30, bounce: 100 };
 
   const translateX = useSpring(
-    useTransform(scrollYProgress, [0, 1], [0, 100]),
+    useTransform(scrollYProgress, [0, 1], [0, 150]),
     springConfig
   );
   const translateXReverse = useSpring(
-    useTransform(scrollYProgress, [0, 1], [0, 2000]),
+    useTransform(scrollYProgress, [0, 1], [0, 0]),
     springConfig
   );
   const rotateX = useSpring(
@@ -61,7 +61,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden relative flex flex-col self-auto"
+      className="h-[200vh]  py-8 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -75,7 +75,7 @@ export const HeroParallax = ({
         {rows.map((row, index) => (
           <motion.div
             key={index}
-            className="flex flex-wrap mb-10 space-x-4"
+            className="flex flex-wrap mb-20 space-x-2"
             style={{
               opacity: imageOpacity,
             }}
