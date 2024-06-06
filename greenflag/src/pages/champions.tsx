@@ -17,7 +17,7 @@ const  Champions = () =>  {
 }
 export default Champions
 const imagesWithText = [
-    { src: "/champions/max.jpeg", text: "Max Verstappen", link: "/drivers/max" },
+    { src: "/champions/max.jpeg", text: "Max Verstappen", link: "/drivers/verstappen" },
     { src: "/champions/hamilton.jpeg", text: "Lewis Hamilton", link: "/drivers/hamilton" },
     { src: "/champions/button.jpeg", text: "Jenson Button", link: "/drivers/button" },
     { src: "/champions/vetel.jpeg", text: "Sebastian Vettel", link: "/drivers/vettel" },
