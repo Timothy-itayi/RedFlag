@@ -41,7 +41,7 @@ const Home = () => {
 
   return (
     <>
-    <div className="animate-fade-up mb-10 ">
+    <div className="animate-fade-up  ">
     <HeroParallax products={products} />
 
     
