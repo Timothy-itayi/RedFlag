@@ -30,7 +30,7 @@ const Mercedes = () => {
     <div>
    <p className="font-bold text-4xl text-white">Mercedes</p>
       <p className="font-normal text-base text-white"></p>
-      <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+      <p className="font-normal text-base my-2 max-w-lg text-neutral-200">
       Mercedes-Benz, a German luxury automotive brand, active in Formula One since 1954, owns the Mercedes-AMG Petronas F1 Team. Known as the "Silver Arrows," they won titles in 1954 and 1955. Returning as an engine supplier in 1994, Mercedes found success with McLaren. Rebranding Brawn GP in 2010, Mercedes dominated from 2014 to 2021, winning seven Drivers' and eight Constructors' titles. Mercedes engines have over 200 wins, ranking second in F1 history with ten Constructors' and thirteen Drivers' Championships.
 
 
