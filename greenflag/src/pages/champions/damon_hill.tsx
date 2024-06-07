@@ -55,7 +55,7 @@ const  Damon_Hill = () =>  {
   return (
     <>
     <div className="text-center p-10 ">
-          <h1 className="text-7xl  text-white font-bold"> Damon Hill</h1>
+          <h1 className="text-7xl  text-white card-font flex flex-wrap justify-center "> Damon Hill</h1>
       </div>
       <StickyScroll content={content} />
       </>

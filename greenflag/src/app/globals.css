@@ -24,3 +24,33 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'Formula1-Bold ';
+  src: url('../fonts//Formula1-Bold.otf') format('truetype');
+  /* Add additional src entries if you have other font file formats */
+}
+
+@font-face {
+  font-family: 'Formula1-Wide';
+  src: url('../fonts/Formula1-Wide.otf') format('truetype');
+  /* Add additional src entries if you have other font file formats */
+}
+
+@font-face {
+  font-family: 'Formula1-Regular';
+  src: url('../fonts/Formula1-Regular.otf') format('truetype');
+  /* Add additional src entries if you have other font file formats */
+}
+
+
+
+.header-font {
+  font-family: 'Formula1-Bold';
+}
+.name-font{
+  font-family: 'Formula1-Regular';
+}
+.card-font{
+  font-family: 'Formula1-Wide';
+}

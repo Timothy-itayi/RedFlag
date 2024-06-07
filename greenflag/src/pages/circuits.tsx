@@ -5,11 +5,11 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
 import ScrollToTop from "@/components/ui/scroll-to-top";
 
-const Tracks = () => {
+const Circuits = () => {
   return (
     <>
     <div className="text-center p-10">
-      <h1 className="text-7xl  text-white font-bold"> Formula 1 Tracks</h1>
+      <h1 className="text-7xl  text-white name-font">Circuits </h1>
     </div>
       <div className="flex justify-center">
         <ScrollToTop/>
@@ -668,4 +668,4 @@ const Tracks = () => {
   );
 }
 
-export default Tracks;
+export default Circuits;

@@ -11,10 +11,10 @@ const content = [
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
            <Image
-          src="/drivers/m-verstappen/ver00.jpeg"
+          src="/drivers_champions/verstappen/ver00.jpeg"
           width={300}
           height={300}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover "
           alt="linear board demo"
         />
       </div>
@@ -27,10 +27,10 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/drivers_champion/m-verstappen/ver01.webp"
+          src="/drivers_champions/verstappen/ver01.webp"
           width={300}
           height={300}
-          className="h-full w-full object-cover"
+          className="h-full w-full "
           alt="linear board demo"
         />
       </div>
@@ -43,10 +43,10 @@ const content = [
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
                <Image
-          src="/drivers_champion/m-verstappen/ver02.avif"
+          src="/drivers_champions/verstappen/ver02.avif"
           width={300}
           height={300}
-          className="h-full w-full object-cover"
+          className="h-full w-full "
           alt="linear board demo"
         />
       </div>
@@ -59,10 +59,10 @@ const content = [
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
            <Image
-          src="/drivers_champion/m-verstappen/ver03.jpeg"
+          src="/drivers_champions/verstappen/ver03.jpeg"
           width={300}
           height={300}
-          className="h-full w-full object-cover"
+          className="h-full w-full "
           alt="linear board demo"
         />
       </div>
@@ -75,7 +75,7 @@ const content = [
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
            <Image
-          src="/drivers_champion/m-verstappen/ver03.jpeg"
+          src="/ausGP.avif"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -91,10 +91,10 @@ const content = [
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
            <Image
-          src="/drivers_champion/m-verstappen/ver03.jpeg"
+          src="/cockpit.png"
           width={300}
           height={300}
-          className="h-full w-full object-cover"
+          className="h-full w-full "
           alt="linear board demo"
         />
       </div>
@@ -111,7 +111,7 @@ const content = [
           src="/champions/max.jpeg"
           width={300}
           height={300}
-          className="h-full w-full object-cover"
+          className="h-full w-full  "
           alt="linear board demo"
         />
       </div>
@@ -122,7 +122,7 @@ const  Verstappen = () =>  {
   return (
     <>
     <div className="text-center p-10 ">
-          <h1 className="text-7xl  text-white font-bold"> Max Verstappen</h1>
+          <h1 className="text-7xl  text-white flex flex-wrap justify-center  card-font"> Max Verstappen</h1>
       </div>
       <StickyScroll content={content} />
       </>

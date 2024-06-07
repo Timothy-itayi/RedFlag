@@ -3,6 +3,8 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../components/3d-card";
+import Link from "next/link";
+import ScrollToTop from "@/components/ui/scroll-to-top";
 
 
 
@@ -24,8 +26,9 @@ const teamColors = {
 const Drivers = () => {
   return (
     <>
+    <ScrollToTop/>
     <div className="text-center p-10">
-      <h1 className="text-7xl  text-white font-bold"> Formula 1 Drivers</h1>
+      <h1 className="text-7xl  text-white name-font">Drivers</h1>
     </div>
     <div className="flex flex-wrap justify-center gap-6">
 
@@ -55,6 +58,8 @@ const Drivers = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="alex_albon" />
             </CardItem>
+
+      
           </CardBody>
         </CardContainer>
 

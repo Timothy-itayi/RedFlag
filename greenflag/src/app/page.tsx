@@ -5,8 +5,8 @@ import { Tabs } from "@/components/Tabs";
 const Home = () => {
   const products = [
     {
-      title: "Manufacturer",
-      link: "/manufacturer",
+      title: "Manufacturers",
+      link: "/manufacturers",
       thumbnail: "/homeImages/cars.avif",
     },
     {
@@ -26,8 +26,8 @@ const Home = () => {
       thumbnail: "/homeImages/f1_drivers_trophy.png",
     },
     {
-      title: "Tracks",
-      link: "/tracks",
+      title: "Circuits",
+      link: "/circuits",
       thumbnail: "/homeImages/tracks.jpeg",
     },
     {
@@ -46,7 +46,7 @@ const Home = () => {
 
     
 
-      <footer className="text-center bg-gray-800">
+      <footer className="text-center name-font bg-gray-800">
         <p className="text-white">
           &copy; {new Date().getFullYear()} Green Flag. All rights reserved.
         </p>

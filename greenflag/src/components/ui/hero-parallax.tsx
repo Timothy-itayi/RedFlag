@@ -96,11 +96,11 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto  md:py-40 px-4 w-full left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
+    <div className="max-w-7xl relative mx-auto  md:py-20 px-4 w-full left-0 top-0">
+      <h1 className="text-3xl md:text-7xl card-font dark:text-white">
         Green Flag <br /> The Formula 1 Museum
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-white">
+      <p className="max-w-2xl name-font text-base md:text-xl mt-8 dark:text-white">
         Dive into the exhilarating world of Formula 1 with Green Flag, your
         ultimate hub for all things F1. Explore the latest news, in-depth
         analyses, driver profiles, and stunning visuals, all in one place.
@@ -131,7 +131,7 @@ export const ProductCard = ({
         y: -20,
       }}
       key={product.title}
-      className="group/product h-96 w-[20rem] relative flex-shrink-0"
+      className="group/product h-96 w-[20rem] name-font relative flex-shrink-0"
     >
       <Link href={product.link}>
         <div className="block group-hover/product:shadow-2xl">
