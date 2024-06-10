@@ -67,24 +67,24 @@ export const Tabs = ({
             }}
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
-            className={cn("relative px-4 py-2 rounded-full", tabClassName)}
+            className={cn("relative px-4 py-1 rounded-full", tabClassName)}
             style={{
-              transformStyle: "preserve-3d",
-              backgroundColor: teamColors[tab.title] || "white",
+              transformStyle: "flat",
+              
             }}
           >
             {active.value === tab.value && (
               <motion.div
                 layoutId="clickedbutton"
-                transition={{ type: "spring", bounce: 0.3, duration: 0.6 }}
+                transition={{ type: "spring", bounce: 0.5, duration: 0.3 }}
                 className={cn(
-                  "absolute inset-0 rounded-full",
+                  "absolute inset-0 px-8 py-0.5  border-2 border-black dark:border-black uppercase bg-gray-399 text-black transition duration-200 text-sm shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] rounded",
                   activeTabClassName
                 )}
-                style={{ backgroundColor: teamColors[tab.title] || "gray" }}
+               
               />
             )}
-            <span className="relative block text-white dark:text-black">
+            <span className="relative block text-white">
               {tab.title}
             </span>
           </button>
@@ -125,9 +125,9 @@ export const FadeInDiv = ({
           layoutId={tab.value}
           style={{
             scale: 1 - (idx / tabs.length) * 0.1,
-            top: hovering ? idx * -50 : 0,
+            top: hovering ? idx * -30 : 0,
             zIndex: -idx,
-            opacity: idx < 1 ? 1 - idx * 0.1 : 0,
+            opacity: idx < 3 ? 1 - idx * 0.6 : 0,
           }}
           animate={{
             y: isActive(tab) ? [0, 40, 0] : 0,
