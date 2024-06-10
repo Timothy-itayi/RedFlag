@@ -18,7 +18,7 @@ const teamColors = {
   "Alpine": "#0090FF",
   "RB": "#4E7C9B",
   "Aston Martin": "#006F62",
-  "Kick Sauber": "#00FF00",
+  "Stake F1": "#00FF00",
   "Haas": "#FFFFFF",
 };
 
@@ -30,7 +30,8 @@ const Drivers = () => {
     <div className="text-center p-10">
       <h1 className="text-7xl  text-white name-font">Drivers</h1>
     </div>
-    <div className="flex flex-wrap justify-center gap-6">
+    <div className="  flex flex-wrap justify-center gap-6">
+
 
         <CardContainer
          className="inter-var"
@@ -243,7 +244,7 @@ const Drivers = () => {
 
         <CardContainer
          className="inter-var"
-         teamColor={teamColors["Kick Sauber"]}
+         teamColor={teamColors["Stake F1"]}
          >
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto h-auto rounded-xl p-6 border">
             <CardItem
@@ -257,7 +258,7 @@ const Drivers = () => {
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-             Kick Sauber
+             Stake F1
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
@@ -576,7 +577,7 @@ const Drivers = () => {
 
         <CardContainer
          className="inter-var"
-         teamColor={teamColors["Kick Sauber"]}
+         teamColor={teamColors["Stake F1"]}
          >
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto h-auto rounded-xl p-6 border">
             <CardItem
@@ -590,7 +591,7 @@ const Drivers = () => {
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-             Kick Sauber
+             Stake F1
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <Image

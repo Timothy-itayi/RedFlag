@@ -7,21 +7,21 @@ const Home = () => {
     {
       title: "Manufacturers",
       link: "/manufacturers",
-      thumbnail: "/homeImages/cars.avif",
+      thumbnail: "/homeImages/manufactur.jpeg",
     },
     {
       title: "Drivers",
       link: "/drivers",
-      thumbnail: "/homeImages/helmet.png",
+      thumbnail: "/homeImages/driver.jpeg",
     },
   
     {
       title: "Teams",
       link: "/teams",
-      thumbnail: "/homeImages/teams.jpg",
+      thumbnail: "/homeImages/team.webp",
     },
     {
-      title: " Champions",
+      title: " Wall of Champions",
       link: "/champions",
       thumbnail: "/homeImages/f1_drivers_trophy.png",
     },
