@@ -36,7 +36,7 @@ const Home = () => {
       thumbnail: "/homeImages/IMG_3154.JPG",
     },
     {
-      title: "Drivers",
+      title: "standings",
       link: "/standings",
       thumbnail: "/page0.JPG",
     },

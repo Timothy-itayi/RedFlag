@@ -98,7 +98,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-4 overflow-hidden bg-black border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
+        "rounded-2xl h-full w-full p-5 overflow-hidden bg-black border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
         className
       )}
     >
@@ -120,7 +120,7 @@ export const CardTitle = ({
   children: React.ReactNode;
 }) => {
   return (
-    <h4 className={cn("text-zinc-100 header-font  tracking-wide mt-4", className)}>
+    <h4 className={cn("text-zinc-100 card-font  flex-1 text-center tracking-wide mt-4", className)}>
       {children}
     </h4>
   );
@@ -148,7 +148,7 @@ export const InfoItem = ({
     return (
       <div className="flex justify-between mt-1">
         <span className="font-bold  text-zinc-300">{label}:</span>
-        <span className="text-zinc-500 pl-4">{value}</span>
+        <span className="text-white  name-font flex-1 text-right">{value}</span>
       </div>
     );
   };
