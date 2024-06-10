@@ -1,6 +1,6 @@
 import React from "react";
 import { HeroParallax } from "@/components/ui/hero-parallax";
-import { Tabs } from "@/components/Tabs";
+
 
 const Home = () => {
   const products = [
@@ -35,7 +35,11 @@ const Home = () => {
       link: "/about",
       thumbnail: "/homeImages/IMG_3154.JPG",
     },
-  
+    {
+      title: "Drivers",
+      link: "/standings",
+      thumbnail: "/page0.JPG",
+    },
   
   ];
 
