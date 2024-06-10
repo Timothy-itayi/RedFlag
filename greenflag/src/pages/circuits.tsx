@@ -366,7 +366,7 @@ const Circuits = () => {
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-             Imola
+             Italy
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
@@ -392,7 +392,7 @@ const Circuits = () => {
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-            Monza
+            Italy
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
