@@ -5,7 +5,7 @@ const  Champions = () =>  {
      return(
         <>
         <div className="text-center p-10">
-            <h1 className="text-7xl  text-white name-font"> Iconic Champions</h1>
+            <h1 className="text-7xl  text-white name-font"> Wall of  Champions</h1>
         </div>
          <ParallaxScroll imagesWithText={imagesWithText} />
         </>
