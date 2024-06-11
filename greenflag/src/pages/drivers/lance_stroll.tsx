@@ -23,7 +23,7 @@ const Lance_Stroll = () => {
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
                 <Image
-                  src="/current_drivers/lanstro01.avif" // Make sure to provide the imageUrl
+                  src="/current_drivers/lanstr01.avif" // Make sure to provide the imageUrl
                   height="1000"
                   width="1000"
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
