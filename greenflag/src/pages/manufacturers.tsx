@@ -6,12 +6,13 @@ import { LayoutGrid } from "../components/ui/layout-grid";
 const  Manufacturers = () =>  {
   return (
     <>
-    <div className="text-center p-10">
+    <div className="text-center  p-10">
       
      <Navbar/>
         <h1 className="text-2xl  text-white name-font"></h1>
       </div>
-    <div className="h-screen py-20 w-full">
+      
+    <div className="h-screen py-20  w-full">
       <LayoutGrid cards={cards} />
     </div></>
   );
