@@ -5,11 +5,13 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
 import ScrollToTop from "@/components/ui/scroll-to-top";
 import Link from "next/link"
+import Navbar from "@/components/ui/navbar";
 const Circuits = () => {
   return (
     <>
     <div className="text-center p-10">
-      <h1 className="text-7xl  text-white card-font">Circuits </h1>
+      <Navbar/>
+      <h1 className="text-3xl  text-white card-font">Formula 1 Circuits </h1>
     </div>
       <div className="flex justify-center">
         <ScrollToTop/>
