@@ -1,10 +1,13 @@
 "use client";
 import { ParallaxScroll } from "@/components/parallax-scroll";
+import Navbar from "@/components/ui/navbar";
 
 const  Champions = () =>  {
      return(
         <>
+      
         <div className="text-center p-10">
+        <Navbar />
             <h1 className="text-7xl  text-white name-font"> Wall of  Champions</h1>
         </div>
          <ParallaxScroll imagesWithText={imagesWithText} />

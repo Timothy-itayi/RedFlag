@@ -26,8 +26,10 @@ const teamColors = {
 const Drivers = () => {
   return (
     <>
-    <ScrollToTop/>
+    
     <div className="text-center p-10">
+      
+    <ScrollToTop/>
       <h1 className="text-7xl  text-white name-font">Drivers</h1>
     </div>
     <div className="  flex flex-wrap justify-center gap-6">

@@ -1,11 +1,14 @@
 "use client";
 
+import Navbar from "@/components/ui/navbar";
   import { HoverEffect } from "../components/ui/card-hover-effect";
 
 const  Teams = () =>  {
   return (
     <>
+  
      <div className="text-center p-10">
+     <Navbar />
       <h1 className="text-6xl  name-font text-white ">Teams</h1>
     </div>
      <div className="max-w-5xl mx-auto px-8">
