@@ -1,85 +1,146 @@
 "use client";
 import React from "react";
-import { StickyScroll } from "../components/ui/stick-scroll-reveal";
-import Image from "next/image";
+import {Tabs} from "../components/Tabs"
+import SoundPlayer from '../components/showroom-components/sound-player'
+import BlogCard from "../components/showroom-components/blog-card";
+import sounds from '../models/sounds'
+import Navbar from "@/components/ui/navbar";
 
-const content = [
-  {
-    title: "Williams FW14",
-    description:
-    "The Williams FW14 is a Formula One car designed by Adrian Newey, used by the Williams team during the 1991 and 1992 Formula One seasons. The car was driven by Nigel Mansell and Riccardo Patrese.",
-    content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-           <Image
-          src="/carImages/williams.jpeg"
-          width={300}
-          height={300}
-          className="h-full w-full object-cover"
-          alt="linear board demo"
-        />
-      </div>
-    ),
-  },
-  {
-    title: "Ferrari 2004",
-    description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
-    content: (
-      <div className="h-full w-full  flex items-center justify-center text-white">
-        <Image
-          src="/carImages/f04.jpeg"
-          width={300}
-          height={300}
-          className="h-full w-full object-cover"
-          alt="linear board demo"
-        />
-      </div>
-    ),
-  },
-  {
-    title: "McLaren MP4/4",
-    description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
-    content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-           <Image
-          src="/carImages/macleran.jpeg"
-          width={300}
-          height={300}
-          className="h-full w-full object-cover"
-          alt="linear board demo"
-        />
-      </div>
-    ),
-  },
-  {
-    title: " Lotus 72",
-    description:
-      "Seventy-five races and 20 wins does not sound that impressive in the present company. But the Lotus 72 has an ace up its sleeve. It won three Constructors’ Championships and two Drivers’ Championships in six seasons of racing and its 20 victories are spread out over five seasons, not just one. The Lotus 72 is a special racing car."
-
-    ,   content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-      <Image
-          src="/carImages/lotus72.jpeg"
-          width={300}
-          height={300}
-          className="h-full w-full object-cover"
-          alt="linear board demo"
-        />
-
-      </div>
-    ),
-  },
-  
-];
-const Cars = () => {
+const  Cars = () =>  {
   return (
-    <div className="pt-20">
-      <div>
-        <h1></h1>
+    <>
+    <div className="text-center p-10 ">
+      <Navbar />
+          <h1 className="text-7xl  text-white card-font flex flex-wrap justify-center "> Iconic Cars</h1>
       </div>
-      <StickyScroll content={content} />
-    </div>
+      <div className="h-[20rem] md:h-[20rem] [perspective:1000px] mt-2 relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
+      <Tabs tabs={items} />
+      </div>
+      </>
   );
 }
+
 export default Cars;
+
+const items  = [
+  {
+    title: "Ferrari",
+    value: "ferrari",
+    content: (
+      <div className="md:mx-auto container m-3 bg-black">
+     
+      
+        
+          <div className="md:mx-auto container  border-full border-2 ">
+            <BlogCard
+              imageUrls={[
+                "/F1cars/Ferrari/f05.jpeg",
+                "/F1cars/Ferrari/f06.png",
+                "/F1cars/Ferrari/f00.png",
+                "/F1cars/Ferrari/f02.jpeg",
+                "/F1cars/Ferrari/f03.jpeg",
+                "/F1cars/Ferrari/f04.jpeg",
+               
+                
+            
+              ]}
+              title="F2004"
+              />
+              <SoundPlayer selectedSound={sounds[0]}/>
+           
+          </div>
+      
+      </div>
+    ),
+  },
+  {
+    title: "Renault",
+    value: "renault",
+    content: (
+      <div className="md:mx-auto container m-3 bg-black">
+     
+      
+        
+          <div className="md:mx-auto container  border-full border-2 ">
+            <BlogCard
+              imageUrls={[
+                "/F1cars/Renault/renault00.jpg",
+                "/F1cars/Renault/renault01.jpeg",
+                "/F1cars/Renault/renault02.jpeg",
+                "/F1cars/Renault/renault03.jpeg",
+                "/F1cars/Renault/renault05.png",
+                "/F1cars/Renault/renault06.jpeg",
+               
+                
+            
+              ]}
+              title="R25/R26"
+              />
+              <SoundPlayer selectedSound={sounds[1]}/>
+           
+          </div>
+      
+      </div>
+    ),
+  },
+  {
+    title: "Mercedes",
+    value: "mercedes",
+    content: (
+      <div className="md:mx-auto container m-3 bg-black">
+     
+      
+        
+          <div className="md:mx-auto container  border-full border-2 ">
+            <BlogCard
+              imageUrls={[
+                "/F1cars/Mercedes/merc00.png",
+                "/F1cars/Mercedes/merc01.png",
+                "/F1cars/Mercedes/merc02.jpeg",
+                "/F1cars/Mercedes/merc03.png",
+                "/F1cars/Mercedes/merc05.jpeg",
+                "/F1cars/Mercedes/mers06.jpeg",
+               
+                
+            
+              ]}
+              title="W11"
+              />
+              <SoundPlayer selectedSound={sounds[2]}/>
+           
+          </div>
+      
+      </div>
+    ),
+  },
+  {
+    title: "Red Bull",
+    value: "red bull",
+    content: (
+      <div className="md:mx-auto container m-3 bg-black">
+     
+      
+        
+          <div className="md:mx-auto container  border-full border-2 ">
+            <BlogCard
+              imageUrls={[
+                "/F1cars/RedBull/rb00.jpeg",
+                "/F1cars/RedBull/rb01.jpeg",
+                "/F1cars/RedBull/rb02.png",
+                "/F1cars/RedBull/rb03.png",
+                "/F1cars/RedBull/rb05.png",
+                "/F1cars/RedBull/rb06.png",
+               
+                
+            
+              ]}
+              title="RB19"
+              />
+              <SoundPlayer selectedSound={sounds[3]}/>
+           
+          </div>
+      
+      </div>
+    ),
+  },
+]

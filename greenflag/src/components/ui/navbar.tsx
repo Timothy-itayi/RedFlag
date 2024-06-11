@@ -7,7 +7,7 @@ const Navbar = (): JSX.Element => {
         <ul className="flex">
           <li>
             <Link href="/">
-              <button className="px-5 text-white bg-black  transition duration-300 ease-in-out ">
+              <button className="px-5 text-white bg-black card-font transition duration-300 ease-in-out ">
                Home
               </button>
             </Link>

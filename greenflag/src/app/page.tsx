@@ -5,14 +5,19 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
 const Home = () => {
   const products = [
     {
+      title: "Drivers Standings",
+      link: "/standings",
+      thumbnail: "/homeImages/driver.jpeg",
+    },
+    {
       title: "Manufacturers",
       link: "/manufacturers",
       thumbnail: "/homeImages/manufactur.jpeg",
     },
     {
-      title: "Drivers",
-      link: "/drivers",
-      thumbnail: "/homeImages/driver.jpeg",
+      title: "Iconic Cars",
+      link: "/cars",
+      thumbnail: "/homeImages/carsagain.jpeg",
     },
   
     {
@@ -35,11 +40,7 @@ const Home = () => {
       link: "/about",
       thumbnail: "/homeImages/IMG_3154.JPG",
     },
-    {
-      title: "standings",
-      link: "/standings",
-      thumbnail: "/page0.JPG",
-    },
+   
   
   ];
 
