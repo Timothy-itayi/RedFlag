@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "src/**/*", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx", "index/**/*.ts", "server/**/*"],
+  "include": ["next-env.d.ts", "src/**/*", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx","pages**/*", "index/**/*.ts", "server/**/*"],
   "exclude": ["node_modules"]
 }
