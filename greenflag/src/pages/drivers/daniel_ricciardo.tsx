@@ -7,7 +7,7 @@ import Detail from "../../components/driver-components/driver-detail";
 // Define the driver number for Logan Sargeant
 const driverNumber = '3'; // Assuming Logan Sargeant has driver number 2
 
-const Daniel_Riccardo = () => {
+const Daniel_Ricciardo = () => {
   return (
     <>
       <div className="text-center p-10">
@@ -18,7 +18,7 @@ const Daniel_Riccardo = () => {
           <CardContainer className="inter-var" teamColor={teamColors["RB"]}>
             <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto h-auto rounded-xl p-6 border">
               <CardItem translateZ="50" className="text-xl font-bold text-neutral-600 dark:text-white">
-                Daniel Riccardo
+                Daniel Ricciardo
               </CardItem>
               <CardItem as="p" translateZ="60" className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300">
                 RB
@@ -48,4 +48,4 @@ const Daniel_Riccardo = () => {
   );
 };
 
-export default Daniel_Riccardo;
+export default Daniel_Ricciardo;

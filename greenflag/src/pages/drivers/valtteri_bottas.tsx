@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Detail from "../../components/driver-components/driver-detail";
 
 // Define the driver number for Logan Sargeant
-const driverNumber = '2'; // Assuming Logan Sargeant has driver number 2
+const driverNumber = '77'; // Assuming Logan Sargeant has driver number 2
 
 const Valtteri_Bottas = () => {
   return (

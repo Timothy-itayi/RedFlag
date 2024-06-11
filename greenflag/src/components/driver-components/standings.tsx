@@ -31,7 +31,7 @@ const Standings: React.FC<StandingsProps> = ({ drivers }) => {
     // Encode the normalized driver name for the URL
     link: `/drivers/${encodeURIComponent(replaceSpecialCharacters(driver.firstName.toLowerCase()))}_${encodeURIComponent(replaceSpecialCharacters(driver.lastName.toLowerCase()))}`,
     // Encode the image URL
-    image: encodeURIComponent(driver.imageUrl ?? '/page0.JPG'),
+    image: encodeURIComponent(driver.imageUrl ?? '/current_drivers/jack01.png'),
     team: driver.teamName,
     points: driver.standing ? driver.standing.points ?? 0 : 'N/A',
     position: driver.standing ? driver.standing.position ?? 0 : 'N/A',
