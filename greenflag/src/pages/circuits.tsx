@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
 import ScrollToTop from "@/components/ui/scroll-to-top";
-
+import Link from "next/link"
 const Circuits = () => {
   return (
     <>
@@ -38,6 +38,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Bahrain International Circuit" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/bahrain"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -65,6 +77,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="jeddah circuit" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/saudi-arabia"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
   
@@ -92,6 +116,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Albert Park circuit" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/australia"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -118,6 +154,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="suzuka circuit" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/japan"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -146,6 +194,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Shanghai International Circuit" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/china"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -173,6 +233,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Miami International Autodrome" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/miami"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -200,6 +272,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Autodromo Dino Ferrarit" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/imola"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -227,6 +311,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Circuit de Monaco - Monte Carlo" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/monaco"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -254,6 +350,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Circuit Gilles Villeneuve" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/canada"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -280,6 +388,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Circuit de Barcelona-Catalunya" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/spain"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -308,6 +428,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Red Bull Ring" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/austria"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -336,6 +468,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Silverstone" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/british"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -364,6 +508,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Hungaroring" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/hungary"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -390,6 +546,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Circuit de Spa-Francorchamps" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/belgium"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -417,6 +585,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Zandvoort" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/dutch"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -445,6 +625,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Abu Dhabi circuit" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/monza"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -477,6 +669,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="baku city circuit" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/azerbaijan"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -505,6 +709,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="marina bay street circuit" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/singapore"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
     
@@ -534,6 +750,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="The Circuits of the Americas" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/cota"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -561,6 +789,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Autódromo Hermanos Rodríguez" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/mexico"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -590,6 +830,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="interlagos" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/brazil"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -625,6 +877,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Las Vegas Strip Circuit" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/las-vegas"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -655,6 +919,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="lusail international circuit" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/qatar"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
@@ -685,6 +961,18 @@ const Circuits = () => {
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Abu Dhabi circuit" />
             </CardItem>
+            <div className="flex justify-between items-center ">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/circuits/abu-dhabi"
+            
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            learn more →
+          </CardItem>
+       
+        </div>
           </CardBody>
         </CardContainer>
 
