@@ -95,12 +95,13 @@ const items  = [
           <div className="md:mx-auto container  border-full border-2 ">
             <BlogCard
               imageUrls={[
+                "/F1cars/Mercedes/merc06.jpeg",
                 "/F1cars/Mercedes/merc00.png",
                 "/F1cars/Mercedes/merc01.png",
                 "/F1cars/Mercedes/merc02.jpeg",
                 "/F1cars/Mercedes/merc03.png",
                 "/F1cars/Mercedes/merc05.jpeg",
-                "/F1cars/Mercedes/mers06.jpeg",
+             
                
                 
             
@@ -207,6 +208,124 @@ const items  = [
               title="FW14B"
               />
               <SoundPlayer selectedSound={sounds[5]}/>
+           
+          </div>
+      
+      </div>
+    ),
+  },
+  {
+    title: "Brawn",
+    value: "brawn",
+    content: (
+      <div className="md:mx-auto container m-3 bg-black">
+     
+      
+        
+          <div className="md:mx-auto container  border-full border-2 ">
+            <BlogCard
+              imageUrls={[
+
+                "/F1cars/Brawn/brawn00.jpeg",
+                "/F1cars/Brawn/brawn01.jpeg",
+                "/F1cars/Brawn/brawn04.avif",   
+           
+                "/F1cars/Brawn/brawn03.avif",
+                "/F1cars/Brawn/brawn06.jpeg",
+       
+         
+          
+              
+            
+                
+               
+                
+            
+              ]}
+              title="BrawnBGP"
+              />
+              <SoundPlayer selectedSound={sounds[6]}/>
+           
+          </div>
+      
+      </div>
+    ),
+  },
+  {
+    title: "Lotus",
+    value: "lotus",
+    content: (
+      <div className="md:mx-auto container m-3 bg-black">
+     
+      
+        
+          <div className="md:mx-auto container  border-full border-2 ">
+            <BlogCard
+              imageUrls={[
+                "/F1cars/Lotus/lotus03.jpeg",
+                "/F1cars/Lotus/lotus05.jpeg",
+                "/F1cars/Lotus/lotus01.jpeg",
+                "/F1cars/Lotus/lotus00.jpeg", 
+                "/F1cars/Lotus/lotus02.jpeg",
+                "/F1cars/Lotus/lotus04.jpeg",
+             
+            
+             
+             
+         
+          
+              
+            
+                
+               
+                
+            
+              ]}
+              title="Lotus 78"
+              />
+              <SoundPlayer selectedSound={sounds[7]}/>
+           
+          </div>
+      
+      </div>
+    ),
+  },
+  {
+    title: "Benetton",
+    value: "benetton",
+    content: (
+      <div className="md:mx-auto container m-3 bg-black">
+     
+      
+        
+          <div className="md:mx-auto container  border-full border-2 ">
+            <BlogCard
+              imageUrls={[
+                "/F1cars/Benetton/ben01.jpeg",
+                "/F1cars/Benetton/ben00.jpeg", 
+                "/F1cars/Benetton/ben05.jpeg",
+              
+                "/F1cars/Benetton/ben02.jpeg",
+                "/F1cars/Benetton/ben03.jpeg",
+              
+       
+            
+             
+            
+             
+             
+         
+          
+              
+            
+                
+               
+                
+            
+              ]}
+              title="B195"
+              />
+              <SoundPlayer selectedSound={sounds[8]}/>
            
           </div>
       

@@ -33,7 +33,22 @@ const sounds = [
         waveType: "Williams.mp3"
       },
     
+      {
+        id: 6,
+        title: "Brawn",
+        waveType: "Brawn.mp3"
+      },
     
+      {
+        id: 7,
+        title: "Lotus",
+        waveType: "Lotus.mp3"
+      },
+      {
+        id: 8,
+        title: "Benetton",
+        waveType: "Benetton.mp3"
+      },
 ]
 
 export default sounds
