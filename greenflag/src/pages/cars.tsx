@@ -38,6 +38,7 @@ const items  = [
                 "/F1cars/Ferrari/f06.png",
                 "/F1cars/Ferrari/f00.png",
                 "/F1cars/Ferrari/f02.jpeg",
+                "/champions/mschumacer.jpeg",
                 "/F1cars/Ferrari/f03.jpeg",
                 "/F1cars/Ferrari/f04.jpeg",
                
@@ -137,6 +138,75 @@ const items  = [
               title="RB19"
               />
               <SoundPlayer selectedSound={sounds[3]}/>
+           
+          </div>
+      
+      </div>
+    ),
+  },
+  {
+    title: "Mclaren",
+    value: "mclaren",
+    content: (
+      <div className="md:mx-auto container m-3 bg-black">
+     
+      
+        
+          <div className="md:mx-auto container  border-full border-2 ">
+            <BlogCard
+              imageUrls={[
+
+             
+                "/F1cars/Mclaren/mac05.jpeg",
+                "/F1cars/Mclaren/mac04.jpeg",
+                "/F1cars/Mclaren/mac00.jpeg",
+                "/F1cars/Mclaren/mac03.jpeg",
+                "/F1cars/Mclaren/mac01.jpeg",
+                "/F1cars/Mclaren/mac07.jpeg",
+                "/F1cars/Mclaren/mac08.jpeg",
+                
+               
+                
+            
+              ]}
+              title="MP4/4"
+              />
+              <SoundPlayer selectedSound={sounds[4]}/>
+           
+          </div>
+      
+      </div>
+    ),
+  },
+  {
+    title: "Williams",
+    value: "williams",
+    content: (
+      <div className="md:mx-auto container m-3 bg-black">
+     
+      
+        
+          <div className="md:mx-auto container  border-full border-2 ">
+            <BlogCard
+              imageUrls={[
+
+                "/F1cars/Williams/will05.webp",
+                "/F1cars/Williams/will00.webp",
+                "/F1cars/Williams/will03.jpeg",
+                "/F1cars/Williams/will01.webp",
+                "/F1cars/Williams/will02.jpeg",
+               
+                "/F1cars/Williams/will04.jpeg",
+              
+            
+                
+               
+                
+            
+              ]}
+              title="FW14B"
+              />
+              <SoundPlayer selectedSound={sounds[5]}/>
            
           </div>
       

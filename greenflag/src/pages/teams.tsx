@@ -9,7 +9,7 @@ const  Teams = () =>  {
   
      <div className="text-center p-10">
      <Navbar />
-      <h1 className="text-6xl  name-font text-white ">Teams</h1>
+      <h1 className="text-6xl  card-font text-white ">Teams</h1>
     </div>
      <div className="max-w-5xl mx-auto px-8">
       <HoverEffect items={projects} />

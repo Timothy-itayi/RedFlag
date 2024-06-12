@@ -22,6 +22,17 @@ const sounds = [
         title: "RedBull",
         waveType: "Redbull.mp3"
       },
+      {
+        id: 4,
+        title: "Mclaren",
+        waveType: "Mclaren.mp3"
+      },
+      {
+        id: 5,
+        title: "Williams",
+        waveType: "Williams.mp3"
+      },
+    
     
 ]
 
