@@ -161,10 +161,10 @@ const items  = [
                 "/F1cars/Mclaren/mac05.jpeg",
                 "/F1cars/Mclaren/mac04.jpeg",
                 "/F1cars/Mclaren/mac00.jpeg",
-                "/F1cars/Mclaren/mac03.jpeg",
+                "/F1cars/Mclaren/mac08.jpeg",
                 "/F1cars/Mclaren/mac01.jpeg",
                 "/F1cars/Mclaren/mac07.jpeg",
-                "/F1cars/Mclaren/mac08.jpeg",
+   
                 
                
                 
@@ -194,11 +194,9 @@ const items  = [
                 "/F1cars/Williams/will05.webp",
                 "/F1cars/Williams/will00.webp",
                 "/F1cars/Williams/will03.jpeg",
-                "/F1cars/Williams/will01.webp",
                 "/F1cars/Williams/will02.jpeg",
-               
-                "/F1cars/Williams/will04.jpeg",
-              
+                "/F1cars/Williams/will06.jpeg",
+             
             
                 
                
