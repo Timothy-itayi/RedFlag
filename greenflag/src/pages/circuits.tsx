@@ -9,13 +9,13 @@ import Navbar from "@/components/ui/navbar";
 const Circuits = () => {
   return (
     <>
-    <div className="text-center p-10">
+    <div className="text-center animate-fade-up p-10">
       <Navbar/>
-      <h1 className="text-3xl  text-white card-font">Formula 1 Circuits </h1>
+      <h1 className="text-5xl  text-white card-font"> Circuits </h1>
     </div>
       <div className="flex justify-center">
         <ScrollToTop/>
-    <div className="flex flex-wrap justify-center  gap-6">
+    <div className="flex flex-wrap justify-center animate-fade-up gap-6">
 
     <CardContainer className="inter-var">
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto h-auto rounded-xl p-6 border">

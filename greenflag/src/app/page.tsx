@@ -6,7 +6,7 @@ const Home = () => {
   const products = [
     {
       title: "Drivers Standings",
-      link: "/standings",
+      link: "/drivers-standings",
       thumbnail: "/homeImages/driver.jpeg",
     },
     {
@@ -16,14 +16,14 @@ const Home = () => {
     },
     {
       title: "Iconic Cars",
-      link: "/cars",
-      thumbnail: "/homeImages/carsagain.jpeg",
+      link: "/iconic-cars",
+      thumbnail: "/homeImages/iconic-cars.jpeg",
     },
   
     {
       title: "Teams",
       link: "/teams",
-      thumbnail: "/homeImages/team.webp",
+      thumbnail: "/homeImages/teams.png",
     },
     {
       title: " Wall of Champions",
@@ -36,11 +36,17 @@ const Home = () => {
       thumbnail: "/homeImages/tracks.jpeg",
     },
     {
-      title: "About ",
-      link: "/about",
-      thumbnail: "/homeImages/IMG_3154.JPG",
+      title: "Grandprix History ",
+      link: "https://grand-prix-history.vercel.app/",
+      thumbnail: "/homeImages/gp-history-logo.png",
     },
    
+    {
+      title: "About Me",
+      link: "/about",
+      thumbnail: "/homeImages/aboutme.jpeg",
+    },
+  
   
   ];
 
@@ -51,9 +57,9 @@ const Home = () => {
 
     
 
-      <footer className="text-center name-font bg-gray-800">
+      <footer className="text-center name-font bg-black">
         <p className="text-white">
-          &copy; {new Date().getFullYear()} Green Flag. All rights reserved.
+          &copy; {new Date().getFullYear()}  Formula 1 Heritage. All rights reserved.
         </p>
       </footer>
     </div>

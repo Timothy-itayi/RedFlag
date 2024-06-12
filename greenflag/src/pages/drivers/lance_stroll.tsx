@@ -15,7 +15,7 @@ const Lance_Stroll = () => {
         <div className="w-full max-w-7xl">
           <CardContainer className="inter-var" teamColor={teamColors["Aston Martin"]}>
             <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto h-auto rounded-xl p-6 border">
-              <CardItem translateZ="50" className="text-xl font-bold text-neutral-600 dark:text-white">
+              <CardItem translateZ="50" className="text-xl card-font text-neutral-600 dark:text-white">
                 Lance Stroll
               </CardItem>
               <CardItem as="p" translateZ="60" className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300">
@@ -30,7 +30,7 @@ const Lance_Stroll = () => {
                   alt="lance"
                 />
               </CardItem>
-              <div className=" ">
+              <div className=" card-font">
                 <CardItem translateZ={20}>
                 
                   <Detail

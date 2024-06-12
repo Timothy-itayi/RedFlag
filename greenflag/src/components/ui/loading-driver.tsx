@@ -6,20 +6,12 @@ interface LoadingDriverProps {
 
 const LoadingDriver: FC<LoadingDriverProps> = ({ large }) => {
   return (
-    <div className="bg-white shadow-lg items-center justify-center rounded-lg p-4 md:p-6 animate-pulse">
-      <div className="grid grid-1 place-content-left">
-       
-        <div className="grid grid-1 place-content-left">
-          <div className="grid grid-1 pb-2 place-content-left">
-            <div className="bg-gray-300 h-4 w-20 md:w-24 mb-1 rounded"></div>
-
-          </div>
-        </div>
-        <div className="grid grid-1 place-content-left">
-        
-        </div>
-      </div>
+    <div className="driver-detail text-center text-white p-4">
+    <div className="flex flex-col items-center animate-pulse">
+      <p className="font-bold max-w-xs bg-gray-400 h-6 w-full rounded-lg mb-2card-font flex-1 text-center animate-pulse">loading latest session</p>
+  
     </div>
+  </div>
   );
 };
 

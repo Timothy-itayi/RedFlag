@@ -27,12 +27,12 @@ const Drivers = () => {
   return (
     <>
     
-    <div className="text-center p-10">
+    <div className="text-center animate-fade-up p-10">
       
     <ScrollToTop/>
       <h1 className="text-7xl  text-white name-font">Drivers</h1>
     </div>
-    <div className="  flex flex-wrap justify-center gap-6">
+    <div className=" animate-fade-up  flex flex-wrap justify-center gap-6">
 
 
         <CardContainer
