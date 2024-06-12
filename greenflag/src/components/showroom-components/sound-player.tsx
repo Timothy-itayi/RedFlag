@@ -89,10 +89,12 @@ const SoundPlayer: React.FC<SoundPlayerProps> = ({ selectedSound }) => {
     }
   }, []);
 
+ 
   useEffect(() => {
-    setProgress(normalize(currentTime, duration));
-  }, [duration]);
-
+    if (audioRef.current) {
+      audioRef.current.load();
+    }
+  }, [selectedSound]);
   useEffect(() => {
     setProgress(normalize(currentTime, duration));
   }, [currentTime]);
@@ -110,6 +112,7 @@ const SoundPlayer: React.FC<SoundPlayerProps> = ({ selectedSound }) => {
             <LinearProgress variant="determinate"
               sx={{ width: '100%' }}
               value={progress}
+              
             />
           </div>
           <span className="text-white">{formatTime(duration)}</span>
@@ -126,7 +129,7 @@ const SoundPlayer: React.FC<SoundPlayerProps> = ({ selectedSound }) => {
             </button>
           </div>
         </div>
-        <audio ref={audioRef} src={`/audio/${selectedSound.waveType}`} />
+        <audio ref={audioRef} key={selectedSound.waveType} src={`/audio/${selectedSound.waveType}`} />
       </div>
     </div>
   );
