@@ -63,47 +63,6 @@ const bahrain  = [
       </div>
     ),
   },
-  {
-    title: "Debut",
-    value: "debut",
-    content: (
-      <div className="md:mx-auto container  bg-white">
-     
-      
-        
-          <div className="md:mx-auto container  border-full border-2 ">
-            <BlogCard
-              imageUrls={[
-                "/grandprix/Saudi_ArabianGP/jeddah01.webp",
-              ]}
-              title="Debut"
-              description=" Hosting its debut race on the second-to-last race of the 2021 Formula One season, the Jeddah Corniche Circuit staged the inaugural Saudi Arabian Grand Prix. Amidst the excitement and anticipation, the event marked a historic milestone as the first-ever Grand Prix in Saudi Arabia, elevating the region's motorsport profile to new heights. Positioned along the picturesque Jeddah Corniche, with the azure waters of the Red Sea as its backdrop, the circuit provided a stunning setting for the intense racing action that unfolded on its challenging layout. In a thrilling showdown between the sport's titans, Lewis Hamilton emerged victorious, showcasing his exceptional skill and determination in a fiercely contested battle against his rival, Max Verstappen."/>
-           
-          </div>
-      
-      </div>
-    ),
-  },
-  {
-    title: "Milestone",
-    value: "milestone",
-    content: (
-      <div className="md:mx-auto container  bg-white">
-     
-      
-        
-          <div className="md:mx-auto container  border-full border-2 ">
-            <BlogCard
-              imageUrls={[
-                "/grandprix/Saudi_ArabianGP/jeddah.jpeg",
-              ]}
-              title="Milestone "
-              description=" A historic moment occurred during this Grand Prix with the debut of the youngest-ever Ferrari driver, Oliver Bearman. At just 18 years and 10 months old, Bearman replaced Carlos Sainz Jr. at Ferrari. Despite it being his first race, Bearman showcased his talent by finishing in seventh place and scoring six points. This achievement marked a promising start to his career in Formula 1."/>
-           
-          </div>
-      
-      </div>
-    ),
-  },
+ 
 ]
 

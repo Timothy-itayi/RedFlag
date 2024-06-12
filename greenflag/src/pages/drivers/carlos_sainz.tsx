@@ -10,7 +10,7 @@ const driverNumber = '55'; // Assuming Logan Sargeant has driver number 2
 const Carlos_Sainz = () => {
   return (
     <>
-    
+     
       <div className="flex flex-wrap justify-center  gap-6">
         <div className="w-full max-w-7xl">
           <CardContainer className="inter-var" teamColor={teamColors["Ferrari"]}>
