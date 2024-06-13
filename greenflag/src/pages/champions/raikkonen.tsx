@@ -9,7 +9,7 @@ const  Raikkonen = () =>  {
   return (
     <>
     <div className="text-center p-10 ">
-          <h1 className="text-7xl  text-white card-font flex flex-wrap justify-center "> Damon Hill</h1>
+          <h1 className="text-7xl  text-white card-font flex flex-wrap justify-center ">Kimi Raikkonen</h1>
       </div>
       <div className="h-[20rem] md:h-[20rem] [perspective:1000px] mt-2 relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
       <Tabs tabs={kimi} />

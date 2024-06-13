@@ -116,10 +116,31 @@ const max  = [
           <div className="md:mx-auto container  border-full border-2 ">
             <BlogCard
               imageUrls={[
-                "/cockpit.png",
+                "/drivers_champions/verstappen/ver05.jpeg",
               ]}
               title="Race Winner"
               description="After leaving the Red Bull junior team midway through the 2016 season, Verstappen immediately made headlines by winning the Spanish Grand Prix in his debut race, setting the record as F1's youngest race winner. Despite facing criticism for his aggressive driving style, Verstappen consistently delivered strong performances, securing victories in Malaysia and Mexico in 2017, showcasing his potential and competitiveness." />
+          </div>
+      
+      </div>
+    ),
+  },
+
+  {
+    title: "Rivalry",
+    value: "rivalry",
+    content: (
+      <div className="md:mx-auto container  bg-white">
+     
+      
+        
+          <div className="md:mx-auto container  border-full border-2 ">
+            <BlogCard
+              imageUrls={[
+                "/drivers_champions/verstappen/ver04.avif",
+              ]}
+              title="World Champion"
+              description=" Max Verstappen's Formula 1 journey was a rollercoaster of triumphs and challenges. In 2020, he showcased his talent with two wins and podium finishes, overcoming setbacks like retirements and controversies. The following year, he engaged in a fierce battle with Lewis Hamilton, ultimately securing his maiden World Drivers' Championship in a thrilling finale." />
           </div>
       
       </div>
@@ -137,10 +158,10 @@ const max  = [
           <div className="md:mx-auto container  border-full border-2 ">
             <BlogCard
               imageUrls={[
-                "/champions/max.jpeg",
+                "/drivers_champions/verstappen/ver06.jpeg",
               ]}
-              title="Race Winner"
-              description="From 2020 to 2023, Max Verstappen's Formula 1 journey was a rollercoaster of triumphs and challenges. In 2020, he showcased his talent with two wins and podium finishes, overcoming setbacks like retirements and controversies. The following year, he engaged in a fierce battle with Lewis Hamilton, ultimately securing his maiden World Drivers' Championship in a thrilling finale. Verstappen continued his dominance in 2022, securing his second championship title with a series of commanding victories and record-breaking performances, solidifying his status as one of Formula 1's modern greats." />
+              title="Dominance"
+              description="Verstappen continued his dominance after his fierce battle with Lewis Hamilton in 2021 by securing back-to-back championship titles in 2022 and 2023 with a series of commanding victories and record-breaking performances, solidifying his status as one of Formula 1's modern greats. His relentless pursuit of excellence and ability to deliver under pressure have made him a formidable force in the sport, earning him widespread acclaim and admiration within the racing community and beyond." />
           </div>
       
       </div>
@@ -148,3 +169,4 @@ const max  = [
   },
 ]
 
+ 
