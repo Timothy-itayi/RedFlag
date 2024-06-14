@@ -1,6 +1,6 @@
 // apiClient.tsx
 import axios, { AxiosInstance } from 'axios';
-
+import dotenv from 'dotenv';
 
 
 const apiClient: AxiosInstance = axios.create({
