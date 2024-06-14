@@ -57,7 +57,7 @@ const Home = () => {
 
     
 
-      <footer className="text-center name-font bg-black">
+      <footer className="text-center name-font  bg-black">
         <p className="text-white">
           &copy; {new Date().getFullYear()}  Formula 1 Heritage. All rights reserved.
         </p>

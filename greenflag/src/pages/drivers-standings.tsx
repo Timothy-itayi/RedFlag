@@ -8,7 +8,7 @@ const Drivers_Standings: React.FC = () => {
     <div>
     
         <ScrollToTop/>
-    <div className="text-center p-10">
+    <div className="text-center p-5">
     <Navbar />
       <h1 className="text-5xl  text-white card-font">Drivers Standings</h1>
     </div>

@@ -9,7 +9,7 @@ import Navbar from "@/components/ui/navbar";
 const  Iconic_Cars = () =>  {
   return (
     <>
-    <div className="text-center animate-fade-up p-10 ">
+    <div className="text-center animate-fade-up p-5 ">
       <Navbar />
           <h1 className="text-7xl  text-white card-font flex flex-wrap justify-center "> Iconic Cars</h1>
       </div>
@@ -213,8 +213,8 @@ const items  = [
     ),
   },
   {
-    title: "Brawn",
-    value: "brawn",
+    title: "Brawn GP",
+    value: "brawn GP",
     content: (
       <div className="md:mx-auto container m-3 bg-black">
      
@@ -240,7 +240,7 @@ const items  = [
                 
             
               ]}
-              title="BrawnBGP"
+              title="Brawn BGP 001"
               />
               <SoundPlayer selectedSound={sounds[6]}/>
            
@@ -250,8 +250,8 @@ const items  = [
     ),
   },
   {
-    title: "Lotus",
-    value: "lotus",
+    title: "Team Lotus",
+    value: "team lotus",
     content: (
       <div className="md:mx-auto container m-3 bg-black">
      

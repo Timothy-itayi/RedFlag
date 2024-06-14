@@ -61,7 +61,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[200vh]  py-8 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[200vh]  py-20 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -96,19 +96,18 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto md:py-20 px-4 w-full left-0 top-0">
-    <h1 className="text-2xl md:text-8xl card-font dark:text-white">
+    <div className="max-w-7xl relative mx-auto py-40 px-4 w-full left-0 top-0">
+    <h1 className="text-2xl md:text-5xl card-font dark:text-white">
     Formula 1 Heritage
     </h1>
-    <h2 className="text-2xl md:text-4xl name-font dark:text-white mt-4">
-      Relive the Glory, Track the Champions, Embrace the Legends
+    <h2 className="text-2xl md:text-4xl header-font dark:text-white mt-4">
+      Relive the Glory, Embrace the Legends
     </h2>
-    <p className="max-w-2xl name-font font-bold text-base md:text-xl mt-8 dark:text-white">
+    <p className="max-w-2xl header-font text-base md:text-xl mt-8 dark:text-white">
       Dive into the exhilarating world of Formula 1 with Formula 1 Heritage, your
-      ultimate hub for all things F1. Explore the latest drivers standings, in-depth
-      history and stunning visuals, all in one place.
+      ultimate hub for all things F1. Explore the latest Standings, Champions and Iconic Cars all in one place.
       Whether you're a die-hard fan or new to the sport, Formula 1 Heritage brings you
-      closer to the action, speed, and thrill of Formula 1 racing.
+      closer to the thrill of Formula 1 racing.
     </p>
   </div>
   

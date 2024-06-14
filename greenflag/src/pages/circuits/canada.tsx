@@ -58,8 +58,11 @@ const items  = [
                 "/tracks/CanadianGP.png",
               ]}
               title="History"
-              description=" Spanning 4.361 km (2.709 miles), its layout features high-speed straights and challenging turns, amplifying the thrill for drivers."/>
-           
+              description="Spanning 4.361 km (2.709 miles), the circuit is renowned for its high-speed straights and challenging turns, making it a favorite among drivers and fans alike.
+
+The layout of Circuit Gilles Villeneuve is characterized by its blend of long straights, tight chicanes, and hairpin turns. The circuit's proximity to the St. Lawrence River and its parkland setting provide a unique backdrop to the racing action, offering scenic views and a vibrant atmosphere.
+
+One of the standout features of the circuit is the Wall of Champions, located at the final chicane. This infamous section has claimed many victims over the years, including numerous world champions, highlighting the circuit's unforgiving nature and the technical skill required to navigate it successfully."/>
           </div>
       
       </div>

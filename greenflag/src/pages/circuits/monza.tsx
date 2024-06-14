@@ -57,7 +57,8 @@ const items  = [
                 "/tracks/ItalianGP.png",
               ]}
               title="History"
-              description="Spanning 5.793 km (3.600 miles), the circuit features high-speed straights and a challenging sequence of turns, providing a thrilling challenge for drivers."/>
+              description="Spanning 5.793 km (3.600 miles), Monza is famous for its high-speed straights and challenging sequence of turns, offering drivers a thrilling and iconic challenge.
+The circuit's layout includes legendary sections such as the long straights of the Curva Grande, the high-speed Lesmo corners, and the iconic Parabolica. These corners demand precision and bravery from drivers, as they navigate at incredibly high speeds, often exceeding 300 km/h (186 mph) during qualifying and races."/>
            
           </div>
       

@@ -61,9 +61,9 @@ const items = [
                 "/tracks/Hungaroring.png",
               ]}
               title="History"
-              description="the Hungaroring upholds the highest standards of safety and design. Spanning 4.381 km (2.722 miles), the circuit features high-speed straights and a challenging sequence of turns, offering drivers a thrilling test of skill¹.
+              description=" Spanning 4.381 km (2.722 miles), the circuit is celebrated for its combination of high-speed straights and a challenging sequence of turns, making it a demanding test of skill for drivers.
 
-"/>
+The Hungaroring's layout includes a mix of technical corners and elevation changes, providing a technical challenge that requires precise car control and strategic maneuvering. The circuit's relatively narrow track width and limited overtaking opportunities place a premium on qualifying performance and race strategy."/>
            
           </div>
       

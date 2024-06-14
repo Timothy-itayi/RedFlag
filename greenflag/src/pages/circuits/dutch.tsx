@@ -61,7 +61,9 @@ The Dutch Grand Prix made its debut on 21 June 1936 over a 5-kilometer (3.1-mile
                 "/tracks/DutchGp.png",
               ]}
               title="History"
-              description=" Spanning 4.259 km (2.646 miles), the circuit features high-speed straights and a challenging sequence of turns, providing a thrilling challenge for drivers¹.."/>
+              description="Spanning 4.259 km (2.646 miles), the circuit is renowned for its fast-paced nature, featuring high-speed straights and a challenging sequence of turns that test the skills of drivers to the limit.
+
+Circuit Zandvoort's layout includes iconic sections such as the Tarzanbocht (Tarzan corner), a sharp hairpin at the end of the start-finish straight, which often serves as a prime overtaking opportunity. The circuit also features fast and flowing corners like Scheivlak and Arie Luyendykbocht, demanding precision and commitment from drivers as they navigate these technical sections."/>
            
           </div>
       

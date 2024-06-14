@@ -58,7 +58,9 @@ const items  = [
                 "/tracks/AustrianGP.png",
               ]}
               title="History"
-              description="Spanning 4.318 km (2.683 miles), the circuit features high-speed straights and a challenging sequence of turns, providing a thrilling challenge for drivers."/>
+              description="Spanning 4.318 km (2.683 miles), the circuit's design emphasizes high-speed straights and sharp corners, making it a favorite among drivers for its blend of technical difficulty and opportunities for overtaking.
+
+The circuit's elevation changes add to its character, with the highest point at the Remus curve and the lowest at the first corner. These changes in elevation not only challenge drivers but also offer spectacular viewing points for spectators. The layout features nine turns, each demanding precise control and strategy from drivers, especially in managing tire wear and fuel consumption over the course of a race."/>
            
           </div>
       
