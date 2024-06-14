@@ -10,7 +10,7 @@ const apiClient: AxiosInstance = axios.create({
 
     'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
 
-    'X-RapidAPI-Key': "",
+
 
     'X-RapidAPI-Host': 'hyprace-api.p.rapidapi.com'
   },
