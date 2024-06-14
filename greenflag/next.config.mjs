@@ -31,9 +31,7 @@ export default async () => {
     reactStrictMode: true,
     env: {
       BASE_URL: process.env.BASE_URL,
-      NEXT_PUBLIC_BASE_PATH: process.env.NEXT_PUBLIC_BASE_PATH || '',
     },
-    basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
     images: {
       domains: ['formula1heritage.cc'],
       path: `${publicDir}/**/*`, // Adjust this pattern based on your actual asset structure
