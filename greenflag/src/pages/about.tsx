@@ -20,7 +20,7 @@ const About = () => {
         className="p-4 max-w-7xl mx-auto  relative z-10 w-full pt-20 md:pt-0"
       >
         <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-slate-300 to-slate-500 bg-opacity-50">
-          Hi, I'm Timothy Itayi,
+          Hi,I&apos;m Timothy Itayi,
           <br /> A Front-end Developer
         </h1>
         <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
