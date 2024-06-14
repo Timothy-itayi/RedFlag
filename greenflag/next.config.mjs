@@ -3,7 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   env: {
     BASE_URL: process.env.BASE_URL,
-  }
+  },
+  images: {
+    domains: ['formula1heritage.cc'],
+  },
 };
 
 export default nextConfig;
