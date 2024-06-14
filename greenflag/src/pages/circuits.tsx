@@ -35,8 +35,7 @@ const Circuits = () => {
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
                 src="/tracks/Bahrain-circuit.png"
-                height="1000"
-                width="1000"
+             
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="Bahrain International Circuit" />
             </CardItem>
@@ -74,8 +73,7 @@ const Circuits = () => {
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
                 src="/tracks/JeddahCircuit.png"
-                height="1000"
-                width="1000"
+               
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="jeddah circuit" />
             </CardItem>

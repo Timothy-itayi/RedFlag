@@ -6,8 +6,10 @@ const nextConfig = {
     },
     images: {
         domains: ['formula1heritage.cc'],
+      
         loader: "custom",
         loaderFile: "./ImageLoader.ts",
+        
     },
     experimental: {
         appDir: true,
