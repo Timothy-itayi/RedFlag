@@ -9,6 +9,7 @@ const nextConfig = {
         path: `${basePath}/_next/images`,
         loader: "custom",
         loaderFile: "./ImageLoader.ts",
+        
     },
     experimental: {
         appDir: true,
