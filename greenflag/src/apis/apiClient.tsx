@@ -9,11 +9,7 @@ const apiClient: AxiosInstance = axios.create({
   baseURL: "https://hyprace-api.p.rapidapi.com/v1",
   headers: {
     'Content-Type': 'application/json',
-
     'X-RapidAPI-Key': process.env.API_KEY,
-
-
-
     'X-RapidAPI-Host': 'hyprace-api.p.rapidapi.com'
   },
 });
