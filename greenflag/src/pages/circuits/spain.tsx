@@ -58,9 +58,9 @@ const items  = [
                 "/tracks/SpanishGP.png",
               ]}
               title="History"
-              description="  Spanning 4.657 km (2.894 miles), its layout features high-speed straights and challenging turns, presenting an exhilarating challenge for drivers.
+              description="Spanning 4.657 km (2.894 miles), the circuit is renowned for its blend of high-speed straights and challenging turns, offering drivers an exhilarating and demanding challenge.
 
-"/>
+Circuit de Barcelona-Catalunya's layout includes notable sections such as the long main straight leading into the tight Turn 1 (Elf corner), followed by a series of sweeping corners that test a car's aerodynamic efficiency and a driver's skill. The circuit's diverse range of corners, including the high-speed Campsa and the technical chicane at the end of the lap, demand precise braking points and efficient use of traction."/>
            
           </div>
       

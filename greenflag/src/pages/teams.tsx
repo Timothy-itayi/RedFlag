@@ -7,7 +7,7 @@ const  Teams = () =>  {
   return (
     <>
   
-     <div className="text-center p-10">
+     <div className="text-center p-5">
      <Navbar />
       <h1 className="text-6xl  card-font text-white ">Teams</h1>
     </div>

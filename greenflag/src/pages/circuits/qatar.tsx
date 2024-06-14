@@ -57,7 +57,7 @@ const items  = [
                 "/tracks/QatarGP.png",
               ]}
               title="History"
-              description="Spanning 5.419 km (3.367 miles), the circuit features a unique blend of high-speed straights and complex corners. The track, known as the Losail International Circuit, is located in Lusail, Qatar. The race provides unique challenges for racing, being conducted as a night race. The circuit is known for its long straights and complex corners."/>
+              description="The Qatar Grand Prix takes place at the Losail International Circuit, located in Lusail, Qatar. Spanning 5.419 km (3.367 miles), the circuit offers a distinctive mix of high-speed straights and complex corners, creating a challenging and thrilling experience for drivers. The layout of Losail International Circuit includes several notable features, such as its long straights where cars can reach high speeds, and technical sections with complex corners that demand precise braking and acceleration. These elements create opportunities for overtaking and strategic racing maneuvers."/>
            
           </div>
       

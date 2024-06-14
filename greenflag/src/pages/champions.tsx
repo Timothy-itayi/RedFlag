@@ -6,7 +6,7 @@ const  Champions = () =>  {
      return(
         <>
       
-        <div className="text-center animate-fade-up p-10">
+        <div className="text-center animate-fade-up p-5">
         <Navbar />
             <h1 className="text-5xl m-2 text-white card-font"> Wall of  Champions</h1>
         </div>

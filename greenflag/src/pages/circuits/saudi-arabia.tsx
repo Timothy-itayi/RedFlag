@@ -56,7 +56,7 @@ const bahrain  = [
                 "/tracks/JeddahCircuit.png",
               ]}
               title="Circuit"
-              description=" The Jeddah Corniche Circuit is a state-of-the-art motorsport venue that opened in 2021. This 6.174 km (3.837 mi) circuit is located in the heart of Jeddah, Saudi Arabia, and is used for the annual Formula One Saudi Arabian Grand Prix. The circuit has a FIA Grade 1 license, the highest certification granted by the Fédération Internationale de l’Automobile (FIA), signifying its adherence to the highest standards of safety and design."/>
+              description="he Jeddah Corniche Circuit is a state-of-the-art motorsport venue that opened in 2021. This 6.174 km (3.837 mi) circuit is located in the heart of Jeddah, Saudi Arabia, and is used for the annual Formula One Saudi Arabian Grand Prix. The layout of the Jeddah Corniche Circuit is characterized by its unique features, including long straights where cars can achieve high speeds, coupled with a series of challenging corners that demand precision and skill from drivers. The circuit's design incorporates elements that promote overtaking opportunities and strategic racing maneuvers, ensuring exciting and unpredictable races."/>
            
           </div>
       

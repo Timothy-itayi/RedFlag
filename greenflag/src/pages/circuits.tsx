@@ -9,7 +9,7 @@ import Navbar from "@/components/ui/navbar";
 const Circuits = () => {
   return (
     <>
-    <div className="text-center animate-fade-up p-10">
+    <div className="text-center animate-fade-up p-5">
       <Navbar/>
       <h1 className="text-5xl  text-white card-font"> Circuits </h1>
     </div>

@@ -58,7 +58,9 @@ const items  = [
                 "/tracks/BritishGP.png",
               ]}
               title="History"
-              description=" Spanning 5.891 km (3.66 miles), the circuit's blend of high-speed straights and challenging turns provides an exhilarating test for drivers¹."/>
+              description="Spanning 5.891 km (3.66 miles), Silverstone is one of the longest circuits on the Formula 1 calendar and offers a unique blend of high-speed straights and challenging corners.
+
+Located in Northamptonshire, England, Silverstone's layout includes iconic sections such as the Hangar Straight, where cars reach top speeds, and the fast, sweeping corners of Maggotts, Becketts, and Chapel. These corners demand precision and bravery from drivers as they navigate through rapid changes in direction at high velocities."/>
            
           </div>
       
