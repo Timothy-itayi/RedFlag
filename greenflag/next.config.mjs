@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
+// next.config.mjs
+
 const nextConfig = {
   reactStrictMode: true,
   env: {
@@ -7,8 +8,8 @@ const nextConfig = {
   },
   basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
   images: {
-    domains: ['formula1heritage.cc'], // Ensure your domain is listed here for Next.js to allow image loading
-    path: `${process.env.NEXT_PUBLIC_BASE_PATH}/tracks`, // Adjust this path based on your actual asset structure
+    domains: ['formula1heritage.cc'],
+    path: `${process.env.NEXT_PUBLIC_BASE_PATH}/tracks`,
     loader: 'custom',
     loaderFile: './ImageLoader.ts',
   },
@@ -19,4 +20,4 @@ const nextConfig = {
   output: 'export',
 };
 
-module.exports = nextConfig;
+export default nextConfig;
