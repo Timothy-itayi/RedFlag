@@ -1,7 +1,7 @@
 // next.config.mjs
 
 import path from 'path';
-import { promises as fs } from 'fs'; // Using fs/promises for async operations
+import { promises as fs } from 'fs';
 
 // Function to recursively find all directories under a given directory
 const getAllDirs = async (baseDir) => {
@@ -12,8 +12,8 @@ const getAllDirs = async (baseDir) => {
     for (const file of files) {
       if (file.isDirectory()) {
         const dirPath = path.join(currentDir, file.name);
-        dirs.push(path.relative(baseDir, dirPath)); // Store relative path
-        await findDirs(dirPath); // Recursive call for subdirectories
+        dirs.push(path.relative(baseDir, dirPath));
+        await findDirs(dirPath);
       }
     }
   };
@@ -24,9 +24,10 @@ const getAllDirs = async (baseDir) => {
 
 // Assuming your images are under the 'public' directory
 const publicDir = 'public';
-let imagePaths = [];
-getAllDirs(publicDir).then((dirs) => {
-  imagePaths = dirs;
+
+// Exporting the function as a default export
+export default async () => {
+  const imagePaths = await getAllDirs(publicDir);
 
   const nextConfig = {
     reactStrictMode: true,
@@ -48,5 +49,5 @@ getAllDirs(publicDir).then((dirs) => {
     output: 'export',
   };
 
-  export default nextConfig; // Export the configuration object
-});
+  return nextConfig; // Return the configuration object
+};
