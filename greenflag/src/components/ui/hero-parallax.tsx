@@ -106,7 +106,7 @@ export const Header = () => {
     <p className="max-w-2xl header-font text-base md:text-xl mt-8 dark:text-white">
       Dive into the exhilarating world of Formula 1 with Formula 1 Heritage, your
       ultimate hub for all things F1. Explore the latest Standings, Champions and Iconic Cars all in one place.
-      Whether you're a die-hard fan or new to the sport, Formula 1 Heritage brings you
+      Whether you&aposre a die-hard fan or new to the sport, Formula 1 Heritage brings you
       closer to the thrill of Formula 1 racing.
     </p>
   </div>
