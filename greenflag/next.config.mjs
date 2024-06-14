@@ -6,7 +6,7 @@ const nextConfig = {
     },
     images: {
         domains: ['formula1heritage.cc'],
-      
+        path: `${basePath}/_next/images`,
         loader: "custom",
         loaderFile: "./ImageLoader.ts",
         
