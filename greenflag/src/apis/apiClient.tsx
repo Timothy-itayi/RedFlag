@@ -3,14 +3,14 @@ import axios, { AxiosInstance } from 'axios';
 import dotenv from 'dotenv';
 
 
-console.log('REACT_APP_API_KEY:', process.env.REACT_APP_API_KEY); 
+console.log('API_KEY:', process.env.API_KEY); 
 
 const apiClient: AxiosInstance = axios.create({
   baseURL: "https://hyprace-api.p.rapidapi.com/v1",
   headers: {
     'Content-Type': 'application/json',
 
-    'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
+    'X-RapidAPI-Key': process.env.API_KEY,
 
 
 
