@@ -36,7 +36,7 @@ export default async () => {
     basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
     images: {
       domains: ['formula1heritage.cc'],
-      path: `${publicDir}/*`, // Adjust this pattern based on your actual asset structure
+      path: `${publicDir}/**/*`, // Adjust this pattern based on your actual asset structure
       loader: 'custom',
       loaderFile: './ImageLoader.ts',
     },
