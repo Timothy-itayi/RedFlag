@@ -63,8 +63,8 @@ const items  = [
     ),
   },
   {
-    title: "Formula 1 Debut",
-    value: "Formula 1 debut",
+    title: "Formula 1 ",
+    value: "Formula 1 ",
     content: (
       <div className="md:mx-auto container  bg-white">
      
@@ -75,7 +75,7 @@ const items  = [
               imageUrls={[
                 "/drivers_champions/stewart/stew02.webp",
               ]}
-              title="Formula 1"
+              title="Debut"
               description="n 1965, Jackie Stewart signed with BRM alongside Graham Hill, securing a contract worth £4,000. His first race in a Formula One car came unexpectedly for Lotus, filling in for an injured Jim Clark at the non-championship Rand Grand Prix in December 1964. Despite the Lotus breaking down in the first heat, Stewart won the second heat and set the fastest lap of the race from pole position.
 
 Stewart's official World Championship Formula One debut came in South Africa, where he finished sixth. He achieved his first major competition victory in the BRDC International Trophy later that spring. By the end of the year, Stewart claimed his first World Championship race win at Monza, engaging in a close battle with teammate Hill's P261. His rookie season concluded with one win, three second-place finishes, a third, a fifth, and a sixth-place finish, securing him third place in the World Drivers' Championship standings. "/>
