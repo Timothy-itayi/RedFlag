@@ -1,7 +1,7 @@
-// next.config.js
+// next.config.mjs
 
 import path from 'path';
-import fs from 'fs/promises'; // Using fs/promises for async operations
+import { promises as fs } from 'fs'; // Using fs/promises for async operations
 
 // Function to recursively find all directories under a given directory
 const getAllDirs = async (baseDir) => {
@@ -48,5 +48,5 @@ getAllDirs(publicDir).then((dirs) => {
     output: 'export',
   };
 
-  module.exports = nextConfig;
+  export default nextConfig; // Export the configuration object
 });
