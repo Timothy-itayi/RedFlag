@@ -3,7 +3,7 @@ import axios, { AxiosInstance } from 'axios';
 import dotenv from 'dotenv';
 
 
-console.log('API_KEY:', process.env.NEXT_PUBLIC_API_KEY); 
+console.log('NEXT_PUBLIC_API_KEY:', process.env.NEXT_PUBLIC_API_KEY); 
 
 const apiClient: AxiosInstance = axios.create({
   baseURL: "https://hyprace-api.p.rapidapi.com/v1",
