@@ -1,11 +1,13 @@
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || 'Image Undefined'; // Fallback to empty string if not defined
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 interface ImageLoaderProps {
   src: string;
 }
 
 const ImageLoader = ({ src }: ImageLoaderProps): string => {
-  return `https://formula1heritage.cc${basePath}/${src}`;
+   console.log('Generated URL:', url); // Debugging line
+  return `${basePath}/tracks/${src}`;
+  
 };
 
 export default ImageLoader;
