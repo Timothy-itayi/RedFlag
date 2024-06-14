@@ -104,7 +104,7 @@ const SoundPlayer: React.FC<SoundPlayerProps> = ({ selectedSound }) => {
   console.log(`Current Time: ${currentTime}, Duration: ${duration}`);
 
   return (
-    <div className="items-center justify-center mb-10 bg-black p-3">
+    <div className="items-center justify-center mb-3 bg-black p-3">
       <div className="flex-col text-center">
         <div className="flex items-center gap-4 mb-4">
           <span className="text-white">{formatTime(currentTime)}</span>
