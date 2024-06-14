@@ -5,9 +5,11 @@ interface ImageLoaderProps {
 }
 
 const ImageLoader = ({ src }: ImageLoaderProps): string => {
-   console.log('Generated URL:', `${basePath}/tracks/${src}`); // Debugging line
-  return `${basePath}/tracks/${src}`;
   
+  const imageUrl = `${basePath}/${src}`;
+  console.log('Generated URL:', imageUrl); // Debugging line
+  return imageUrl;
 };
+
 
 export default ImageLoader;
