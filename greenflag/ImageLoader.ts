@@ -5,7 +5,7 @@ interface ImageLoaderProps {
 }
 
 const ImageLoader = ({ src }: ImageLoaderProps): string => {
-   console.log('Generated URL:', url); // Debugging line
+   console.log('Generated URL:', `${basePath}/tracks/${src}`); // Debugging line
   return `${basePath}/tracks/${src}`;
   
 };
