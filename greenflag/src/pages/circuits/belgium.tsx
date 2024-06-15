@@ -58,7 +58,7 @@ The roots of the Belgian Grand Prix trace back to 1925 when the first national r
           <div className="md:mx-auto container  border-full border-2 ">
             <BlogCard
               imageUrls={[
-                "/tracks/BelgiumGP.png",
+                "/tracks/BelgiumGp.png",
               ]}
               title="History"
               description="Spanning 7.004 km (4.352 miles), it stands as one of the longest and most demanding circuits on the Formula 1 calendar.
