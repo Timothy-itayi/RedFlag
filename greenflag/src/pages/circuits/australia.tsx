@@ -54,7 +54,7 @@ const australia  = [
           <div className="md:mx-auto container  border-full border-2 ">
             <BlogCard
               imageUrls={[
-                "/tracks/AusGP.png"]}
+                "/tracks/AusGp.png"]}
               title="History"
               description=" Spanning 5.303 km (3.295 mi), the track features high-speed straights and challenging turns, with a smooth surface and relatively low grip levels, adding complexity for drivers. Nestled within a park and near a lake, the circuit offers a unique ambiance, making the Australian Grand Prix a beloved event among drivers and fans alike for its high-speed action and picturesque surroundings."/>
            
