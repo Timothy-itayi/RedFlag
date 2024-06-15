@@ -54,7 +54,7 @@ const items  = [
           <div className="md:mx-auto container  border-full border-2 ">
             <BlogCard
               imageUrls={[
-                "/tracks/MiamiGP.png",
+                "/tracks/MiamiGp.png",
               ]}
               title="History"
               description="The Miami International Autodrome, boasting a prestigious FIA Grade 1 license, offers a thrilling spectacle for drivers and fans alike. Spanning 5.412 km, its high-speed straights and challenging turns demand precision and skill from competitors. Like its counterpart in Shanghai, China, the Miami circuit fosters exhilarating races with ample opportunities for overtaking, ensuring each Miami Grand Prix is a captivating affair. Situated within the vibrant cityscape of Miami, the circuit's allure lies not only in its technical brilliance but also in the dynamic backdrop it provides, making the Miami Grand Prix a highlight of the Formula One calendar"/>
