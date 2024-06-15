@@ -619,11 +619,11 @@ const Circuits = () => {
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
-                src="/tracks/italianGP.png"
+                src="/tracks/ItalianGP.png"
                 height="1000"
                 width="1000"
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                alt="Abu Dhabi circuit" />
+                alt="Monza" />
             </CardItem>
             <div className="flex justify-between items-center ">
           <CardItem
