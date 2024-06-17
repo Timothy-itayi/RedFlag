@@ -31,6 +31,7 @@ export default async () => {
     reactStrictMode: true,
     env: {
       BASE_URL: process.env.BASE_URL,
+       SECRET_API_KEY: process.env.SECRET_API_KEY,
     },
     images: {
       domains: ['formula1heritage.cc'],
