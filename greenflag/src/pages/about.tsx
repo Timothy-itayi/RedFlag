@@ -36,7 +36,7 @@ const About = () => {
                   "focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50",
                   "animate-shimmer text-white"
                 )}
-                href="mailto:timmytam10@gmail.com"
+                href="mailto:timothy_itayi@icloud.com"
               >
                 Get in touch 
               </a>
