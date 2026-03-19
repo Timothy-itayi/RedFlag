@@ -1,47 +1,21 @@
-import path from 'path';
-import { promises as fs } from 'fs';
-
-// Function to recursively find all directories under a given directory
-const getAllDirs = async (baseDir) => {
-  const dirs = [];
-
-  const findDirs = async (currentDir) => {
-    const files = await fs.readdir(currentDir, { withFileTypes: true });
-    for (const file of files) {
-      if (file.isDirectory()) {
-        const dirPath = path.join(currentDir, file.name);
-        dirs.push(path.relative(baseDir, dirPath));
-        await findDirs(dirPath);
-      }
-    }
-  };
-
-  await findDirs(baseDir);
-  return dirs;
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  env: {
+    BASE_URL: process.env.BASE_URL,
+    SECRET_API_KEY: process.env.SECRET_API_KEY,
+  },
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "formula1heritage.cc",
+      },
+    ],
+  },
+  distDir: "out",
+  output: "export",
 };
 
-// Assuming your images are under the 'public' directory
-const publicDir = 'public';
-
-// Exporting the function as a default export
-export default async () => {
-  const imagePaths = await getAllDirs(publicDir);
-
-  const nextConfig = {
-    reactStrictMode: true,
-    env: {
-      BASE_URL: process.env.BASE_URL,
-       SECRET_API_KEY: process.env.SECRET_API_KEY,
-    },
-    images: {
-      domains: ['formula1heritage.cc'],
-      path: `${publicDir}/**/*`, // Adjust this pattern based on your actual asset structure
-      loader: 'custom',
-      loaderFile: './ImageLoader.ts',
-    },
-    distDir: 'out',
-    output: 'export',
-  };
-
-  return nextConfig; // Return the configuration object
-};
+export default nextConfig;

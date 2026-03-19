@@ -9,11 +9,12 @@ const teamColors = [
   { team: "Red Bull", color: "#1E41FF" },
   { team: "McLaren", color: "#FF8700" },
   { team: "Alpine", color: "#0090FF" },
-  { team: "RB", color: "#4E7C9B" },
+  { team: "Racing Bulls", color: "#4E7C9B" },
   { team: "Aston Martin", color: "#006F62" },
-  { team: "Kick Sauber", color: "#00FF00" },
+  { team: "Audi", color: "#E60012" },
   { team: "Haas", color: "#FFFFFF" },
   { team: "Williams", color: "#005AFF" },
+  { team: "Cadillac", color: "#C0C0C0" },
 ];
 
 
@@ -92,7 +93,7 @@ export const Card = ({
     >
       {image && (
         <div className="relative w-full h-40 overflow-hidden rounded-t-2xl">
-          <img src={image} alt="" className="object-cover w-full h-full" />
+          <img src={image} alt="" className="object-cover object-top w-full h-full" />
         </div>
       )}
       <div className="relative z-50 p-4">{children}</div>

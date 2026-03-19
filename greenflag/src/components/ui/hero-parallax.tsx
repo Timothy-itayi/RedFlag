@@ -10,14 +10,17 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 
+export type Product = {
+  title: string;
+  link: string;
+  thumbnail: string;
+  underConstruction?: boolean;
+};
+
 export const HeroParallax = ({
   products,
 }: {
-  products: {
-    title: string;
-    link: string;
-    thumbnail: string;
-  }[];
+  products: Product[];
 }) => {
   const ref = React.useRef(null);
   const { scrollYProgress } = useScroll({
@@ -118,13 +121,44 @@ export const ProductCard = ({
   product,
   translate,
 }: {
-  product: {
-    title: string;
-    link: string;
-    thumbnail: string;
-  };
+  product: Product;
   translate: MotionValue<number>;
 }) => {
+  if (product.underConstruction) {
+    return (
+      <motion.div
+        style={{ x: translate }}
+        key={product.title}
+        className="group/product h-96 w-[20rem] name-font relative flex-shrink-0 cursor-not-allowed"
+      >
+        <div className="block">
+          <Image
+            src={product.thumbnail}
+            height="500"
+            width="500"
+            className="object-fit object-left-top absolute h-full w-full inset-0 grayscale opacity-40"
+            alt={product.title}
+          />
+        </div>
+        <div className="absolute inset-0 h-full w-full bg-black/60 pointer-events-none" />
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center">
+          <div
+            className="w-full py-2 mb-3 text-black font-bold text-sm tracking-widest uppercase"
+            style={{
+              background: "repeating-linear-gradient(-45deg, #facc15, #facc15 10px, #000 10px, #000 20px)",
+            }}
+          >
+            <span className="bg-yellow-400 px-2 py-0.5">UNDER CONSTRUCTION</span>
+          </div>
+          <h2 className="text-white text-lg font-bold mb-2">{product.title}</h2>
+          <p className="text-yellow-400 text-sm leading-snug">
+            Temporarily offline due to new F1 regulation changes.
+          </p>
+        </div>
+      </motion.div>
+    );
+  }
+
   return (
     <motion.div
       style={{

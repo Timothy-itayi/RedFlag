@@ -26,21 +26,18 @@ body {
 }
 
 @font-face {
-  font-family: 'Formula1-Bold ';
-  src: url('../fonts//Formula1-Bold.otf') format('truetype');
-  /* Add additional src entries if you have other font file formats */
+  font-family: 'Formula1-Bold';
+  src: url('../fonts/Formula1-Bold.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Formula1-Wide';
-  src: url('../fonts/Formula1-Wide.otf') format('truetype');
-  /* Add additional src entries if you have other font file formats */
+  src: url('../fonts/Formula1-Wide.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Formula1-Regular';
-  src: url('../fonts/Formula1-Regular.otf') format('truetype');
-  /* Add additional src entries if you have other font file formats */
+  src: url('../fonts/Formula1-Regular.otf') format('opentype');
 }
 
 

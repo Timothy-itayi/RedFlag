@@ -23,81 +23,78 @@ export const projects = [
   {
     title: "Mercedes",
     description:
-      "With a track record of multiple championships, Mercedes fields Lewis Hamilton and George Russell in 2024",
+      "Eight-time Constructors' Champions, Mercedes enter 2026 with George Russell and rookie Kimi Antonelli as they adapt to the new power unit regulations",
     link: "https://www.mercedesamgf1.com/",
     image: '/teams/mercedes.webp'
   },
   {
     title: "Ferrari",
     description:
-      "With a rich history in F1, Ferrari continues to be a formidable force in 2024. Their team is led by drivers Charles Leclerc and Carlos Sainz",
+      "Ferrari welcome seven-time World Champion Lewis Hamilton alongside Charles Leclerc for 2026, forming one of the strongest driver pairings on the grid",
     link: "https://www.ferrari.com/en-EN/formula1",
     image: '/teams/ferrari.webp'
   },
-  
   {
     title: "Red Bull Racing",
     description:
-      "Known for their competitive spirit and innovative approach, Red Bull Racing has been a strong contender in the F1 circuit. In 2024, they continue to be led by their star driver, Max Verstappen",
+      "Red Bull Racing field Max Verstappen and promoted junior driver Isack Hadjar for 2026, debuting their own Red Bull Ford Powertrains power unit",
     link: "https://www.redbullracing.com/int-en",
     image: '/teams/redbull.jpeg'
   },
-  
   {
     title: "McLaren",
     description:
-      "Known for their technological prowess and racing heritage, McLaren fields Lando Norris and Oscar Piastri in 2024.",
+      "Reigning Constructors' Champions McLaren retain their winning partnership of Lando Norris and Oscar Piastri for the 2026 season",
     link: "https://www.mclaren.com/racing/formula-1/",
     image: '/teams/mclaren.png'
   },
-  
   {
     title: "Alpine",
     description:
-      "Formerly known as Renault, Alpine fields an all-French driver line-up with Esteban Ocon and Pierre Gasly in 2024",
+      "Alpine field Pierre Gasly and Franco Colapinto for 2026 as the team continues its transition under new technical regulations",
     link: "https://www.alpine-cars.co.uk/formula-1/f1-team.html",
     image: '/teams/alpine.avif'
   },
-  
   {
-    title: "Visa Cash App RB  ",
+    title: "Racing Bulls",
     description:
-      "Previously known as AlphaTauri, RB fields drivers Daniel Ricciardo and Yuki Tsunoda in 2024",
-    link: "https://www.visacashapprb.com/en/",
-    image: '/teams/rb.avif'
+      "The Red Bull junior team, rebranded as Racing Bulls, fields Liam Lawson and rookie Arvid Lindblad for the 2026 season",
+    link: "https://www.racingbulls.com/",
+    image: '/teams/racing-bulls.avif'
   },
-  
   {
     title: "Aston Martin",
     description:
-      "After rebranding from Racing Point, Aston Martin continues to compete with drivers Fernando Alonso and Lance Stroll",
+      "Aston Martin continue with Fernando Alonso and Lance Stroll for 2026, now powered by Honda as they push for the front of the grid",
     link: "https://www.astonmartinf1.com/en-GB/",
     image: '/teams/aston_martin.png'
   },
-  
   {
-    title: "Kick Sauber",
+    title: "Audi",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://www.sauber-group.com/team?d=Racing",
-    image: '/teams/kick_sauber.avif'
+      "Audi make their full works entry into F1 in 2026 with Nico Hulkenberg and Gabriel Bortoleto, running their own power unit through the former Sauber operation",
+    link: "https://www.audi-formularacing.com/",
+    image: '/teams/audi-team.jpg'
   },
-  
   {
     title: "Haas",
     description:
-      "An American team that has shown steady progress since their entry into F1, Haas fields drivers Kevin Magnussen and Nico Hulkenberg in 2024",
+      "Haas field Oliver Bearman and Esteban Ocon for 2026, bringing a blend of young talent and experienced racecraft to the American team",
     link: "https://www.haasf1team.com/",
-    image: '/teams/haas.jpeg'
+    image: '/teams/haas.avif'
   },
-  
   {
     title: "Williams",
     description:
-      "A team with a rich history in F1, Williams fields drivers Alexander Albon and Logan Sargeant in 2024",
+      "Williams pair Alex Albon with Carlos Sainz for 2026 as the historic team aims to return to competitiveness under the new regulations",
     link: "https://www.williamsf1.com/",
-    image: '/teams/williams.avif'
+    image: '/teams/williams.webp'
   },
-  
-  
+  {
+    title: "Cadillac",
+    description:
+      "The 11th team on the grid, Cadillac make their F1 debut in 2026 with Sergio Perez and Valtteri Bottas as General Motors enters the sport as a works constructor",
+    link: "https://www.cadillacf1.com/",
+    image: '/teams/cadillac.jpeg'
+  },
 ];

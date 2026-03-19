@@ -8,6 +8,7 @@ const Home = () => {
       title: "Drivers Standings",
       link: "/drivers-standings",
       thumbnail: "/homeImages/driver.jpeg",
+      underConstruction: true,
     },
     {
       title: "Manufacturers",

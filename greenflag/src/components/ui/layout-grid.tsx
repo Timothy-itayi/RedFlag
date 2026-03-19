@@ -9,6 +9,7 @@ type Card = {
   content: JSX.Element | React.ReactNode | string;
   className: string;
   thumbnail: string;
+  contain?: boolean;
 };
 
 export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
@@ -28,14 +29,14 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
   return (
     <div className="w-full h-full p-10 grid grid-cols-1 mb-10 md:grid-cols-3 bg-black max-w-7xl mx-auto gap-4 relative">
       {cards.map((card, i) => (
-        <div key={i} className={cn(card.className, "")}>
+        <div key={i} className={cn(card.className, "aspect-[4/3]")}>
           <motion.div
             onClick={() => handleClick(card)}
             className={cn(
               card.className,
               "relative overflow-hidden",
               selected?.id === card.id
-                ? " cursor-pointer absolute inset-0 h-1/2 w-full md:w-1/2 m-auto z-50 flex justify-center items-center flex-wrap flex-col"
+                ? "cursor-pointer absolute inset-0 h-1/2 w-full md:w-1/2 m-auto z-50 flex justify-center items-center flex-wrap flex-col rounded-lg"
                 : lastSelected?.id === card.id
                 ? "z-40 bg-black rounded-xl h-full w-full"
                 : "bg-black rounded-xl h-full w-full"
@@ -68,7 +69,8 @@ const BlurImage = ({ card }: { card: Card }) => {
       width="500"
       onLoad={() => setLoaded(true)}
       className={cn(
-        "object-cover absolute inset-0 h-full w-full transition duration-200",
+        "absolute inset-0 h-full w-full transition duration-200 object-center",
+        card.contain ? "object-contain" : "object-cover",
         loaded ? "blur-none" : "blur-md"
       )}
       alt="thumbnail"
@@ -78,7 +80,7 @@ const BlurImage = ({ card }: { card: Card }) => {
 
 const SelectedCard = ({ selected }: { selected: Card | null }) => {
   return (
-    <div className="bg-transparent h-full w-full flex flex-col justify-end rounded-lg shadow-2xl relative z-[60]">
+    <div className="bg-transparent h-full w-full flex flex-col justify-end rounded-lg shadow-2xl relative z-[60] overflow-hidden">
       <motion.div
         initial={{
           opacity: 0,
@@ -101,7 +103,7 @@ const SelectedCard = ({ selected }: { selected: Card | null }) => {
           duration: 0.3,
           ease: "easeInOut",
         }}
-        className="relative px-8 pb-4 z-[70]"
+        className="relative px-8 pb-4 z-[70] max-h-[85%] overflow-y-auto"
       >
         {selected?.content}
       </motion.div>
